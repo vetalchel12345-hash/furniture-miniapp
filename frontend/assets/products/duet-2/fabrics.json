@@ -1,0 +1,16 @@
+{
+  "categories": [
+    { "id": 1, "name": "Velutto", "price": 76850, "folder": "category-1" },
+    { "id": 2, "name": "Evita", "price": 82450, "folder": "category-2" },
+    { "id": 3, "name": "Kiton", "price": 79450, "folder": "category-3" },
+    { "id": 4, "name": "Diagonal", "price": 79450, "folder": "category-4" },
+    { "id": 5, "name": "Marbel", "price": 79450, "folder": "category-5" },
+    { "id": 6, "name": "Premier", "price": 79450, "folder": "category-6" },
+    { "id": 7, "name": "Piano", "price": 79450, "folder": "category-7" },
+    { "id": 8, "name": "Belgium", "price": 79450, "folder": "category-8" },
+    { "id": 9, "name": "Pandora", "price": 79450, "folder": "category-9" },
+    { "id": 10, "name": "Limber", "price": 79450, "folder": "category-10" },
+    { "id": 11, "name": "Sunrise", "price": 79450, "folder": "category-11" },
+    { "id": 12, "name": "Phlox", "price": 87450, "folder": "category-12" }
+  ]
+}

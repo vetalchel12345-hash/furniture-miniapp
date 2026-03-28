@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Корзина</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page cart-page-premium">
+      <section class="cart-hero glass glass-strong">
+        <div class="cart-top-row">
+          <button class="icon-btn back-btn" onclick="history.back()">←</button>
+          <div>
+            <div class="eyebrow">Корзина</div>
+            <h1 class="cart-title">Ваш заказ</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="cart-toolbar glass glass-strong">
+        <button class="ghost-btn" onclick="selectAllCartItems()">Выбрать все</button>
+        <button class="ghost-btn" onclick="unselectAllCartItems()">Снять все</button>
+        <button class="ghost-btn remove-btn" onclick="removeSelectedCartItems()">Удалить выбранные</button>
+      </section>
+
+      <section id="cart-list" class="cart-list"></section>
+
+      <section class="cart-bottom-bar glass glass-strong">
+        <div class="cart-bottom-meta">
+          <div class="cart-bottom-count" id="cart-count">0 товаров</div>
+          <div class="cart-bottom-total" id="cart-total">0 ₽</div>
+        </div>
+        <button id="go-checkout-button" class="primary-btn cart-bottom-btn">К оформлению</button>
+      </section>
+    </main>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item active nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

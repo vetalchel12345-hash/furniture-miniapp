@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог мебели</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page catalog-root-page">
+      <section class="catalog-hero glass glass-strong">
+        <div class="eyebrow">Каталог мебели</div>
+        <h1 class="catalog-hero-title">Подберите модель под ваш интерьер</h1>
+        <p class="catalog-hero-subtitle">
+          Диваны, кровати, кресла и мебель для дома в едином премиальном стиле.
+        </p>
+      </section>
+
+      <section id="catalog-groups-grid" class="catalog-groups-grid">
+        <article class="catalog-group-card glass glass-strong" data-name="диваны" onclick="goRootCategory('divany')">
+          <img src="./assets/categories/divany.jpg" alt="Диваны" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Диваны</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="кровати" onclick="goRootCategory('krovati')">
+          <img src="./assets/categories/beds.jpg" alt="Кровати" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Кровати</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="матрасы" onclick="showToast('Матрасы подключим следующим этапом')">
+          <img src="./assets/categories/mattresses.jpg" alt="Матрасы" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Матрасы</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="кресла" onclick="goRootCategory('kresla')">
+          <img src="./assets/categories/armchairs.jpg" alt="Кресла" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Кресла</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="столы" onclick="showToast('Столы подключим следующим этапом')">
+          <img src="./assets/categories/tables.jpg" alt="Столы" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Столы</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="стулья" onclick="showToast('Стулья подключим следующим этапом')">
+          <img src="./assets/categories/chairs.jpg" alt="Стулья" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Стулья</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="пуфы" onclick="goRootCategory('pufy')">
+          <img src="./assets/categories/poufs.jpg" alt="Пуфы" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Пуфы</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="подушки" onclick="showToast('Подушки подключим следующим этапом')">
+          <img src="./assets/categories/pillows.jpg" alt="Подушки" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Подушки</div>
+        </article>
+      </section>
+    </main>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item active">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script>
+    function goRootCategory(category) {
+      if (category === 'divany') {
+        window.location.href = './category.html?group=divany';
+        return;
+      }
+      if (category === 'krovati') {
+        window.location.href = './category.html?group=krovati';
+        return;
+      }
+      if (category === 'kresla') {
+        window.location.href = './category.html?group=kresla';
+        return;
+      }
+      if (category === 'pufy') {
+        window.location.href = './category.html?group=pufy';
+        return;
+      }
+    }
+  </script>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

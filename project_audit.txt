@@ -1,0 +1,1159 @@
+===== ROOT =====
+/Users/vitalijguncak/Desktop/furniture_miniapp
+backend
+bot
+frontend
+project_audit.txt
+
+===== FRONTEND FILES =====
+frontend/.DS_Store
+frontend/app.js
+frontend/cart.html
+frontend/catalog.html
+frontend/css/style.css
+frontend/custom.html
+frontend/data/products.json
+frontend/index.html
+frontend/js/api.js
+frontend/js/app.js
+frontend/js/telegram.js
+frontend/product.html
+frontend/profile.html
+frontend/style.css
+
+===== BACKEND FILES =====
+backend/.DS_Store
+backend/.env
+backend/.venv/.DS_Store
+backend/.venv/bin/Activate.ps1
+backend/.venv/bin/activate
+backend/.venv/bin/activate.csh
+backend/.venv/bin/activate.fish
+backend/.venv/bin/dotenv
+backend/.venv/bin/fastapi
+backend/.venv/bin/pip
+backend/.venv/bin/pip3
+backend/.venv/bin/pip3.9
+backend/.venv/bin/uvicorn
+backend/.venv/pyvenv.cfg
+backend/app/.DS_Store
+backend/app/config.py
+backend/app/data.db
+backend/app/db.py
+backend/app/main.py
+backend/app/models.py
+backend/app/routes/custom.py
+backend/app/routes/orders.py
+backend/app/routes/products.py
+backend/app/services/telegram_auth.py
+backend/requirements.txt
+
+===== BOT FILES =====
+bot/.DS_Store
+bot/.env
+bot/.venv/.DS_Store
+bot/.venv/bin/Activate.ps1
+bot/.venv/bin/activate
+bot/.venv/bin/activate.csh
+bot/.venv/bin/activate.fish
+bot/.venv/bin/dotenv
+bot/.venv/bin/pip
+bot/.venv/bin/pip3
+bot/.venv/bin/pip3.9
+bot/.venv/pyvenv.cfg
+bot/bot.py
+bot/requirements.txt
+
+===== PRODUCTS.JSON =====
+[
+  {
+    "id": 101,
+    "slug": "duet-2",
+    "name": "Диван двухместный Дуэт",
+    "category": "divany-2",
+    "price": 76850,
+    "old_price": 92450,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "220 × 95 × 90 см",
+    "description": "Компактный двухместный диван с механизмом пантограф и комфортной посадкой.",
+    "photos": [
+      "./assets/products/duet-2/gallery/1.jpg",
+      "./assets/products/duet-2/gallery/2.jpg",
+      "./assets/products/duet-2/gallery/3.jpg",
+      "./assets/products/duet-2/gallery/4.jpg"
+    ]
+  }
+]
+
+===== DUET PRODUCT.JSON =====
+{
+  "id": 101,
+  "slug": "duet-2",
+  "name": "Диван двухместный Дуэт",
+  "category": "divany-2",
+
+  "price": 76850,
+  "old_price": 92450,
+
+  "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+
+  "short_specs": "220 × 95 × 90 см",
+
+  "description": "Компактный двухместный диван с механизмом пантограф, аккуратной геометрией и мягкой комфортной посадкой. Подходит для квартиры, дома и гостевых зон. Доступен в 12 категориях ткани с выбором цвета.",
+
+  "photos": [
+    "./assets/products/duet-2/gallery/1.jpg",
+    "./assets/products/duet-2/gallery/2.jpg",
+    "./assets/products/duet-2/gallery/3.jpg",
+    "./assets/products/duet-2/gallery/4.jpg"
+  ],
+
+  "specs": [
+    ["Ширина предмета", "220 см"],
+    ["Глубина без механизма", "95 см"],
+    ["Глубина с механизмом пантограф", "110 см"],
+    ["Высота предмета", "90 см"],
+    ["Высота сиденья", "41 см"],
+    ["Высота опор", "1,5 см"],
+    ["Ширина подлокотника", "20 см"],
+    ["Механизм", "Пантограф"],
+    ["Материал каркаса", "Сосновый брус / березовая фанера"],
+    ["Материал ножек", "Пластик"],
+    ["Наполнение сиденья", "ППУ / независимый пружинный блок"],
+    ["Наполнение подушек спинки", "Холлофайбер"],
+    ["Декоративные подушки", "Не входят в комплект"],
+    ["Гарантия", "24 мес."],
+    ["Производитель", "Вентория"]
+  ],
+
+  "fabric_prices": {
+    "1": 0,
+    "2": 5600,
+    "3": 2600,
+    "4": 2600,
+    "5": 2600,
+    "6": 2600,
+    "7": 2600,
+    "8": 2600,
+    "9": 2600,
+    "10": 2600,
+    "11": 2600,
+    "12": 10600
+  }
+}
+
+===== FABRIC CATEGORIES =====
+frontend/assets/fabrics/category-1/.DS_Store
+frontend/assets/fabrics/category-1/index.json
+frontend/assets/fabrics/category-1/velutto01_570x480.jpg
+frontend/assets/fabrics/category-1/velutto02_570x480.jpg
+frontend/assets/fabrics/category-1/velutto03_570x480.jpg
+frontend/assets/fabrics/category-1/velutto04_570x480.jpg
+frontend/assets/fabrics/category-1/velutto05_570x480.jpg
+frontend/assets/fabrics/category-1/velutto06_570x480.jpg
+frontend/assets/fabrics/category-1/velutto07_570x480.jpg
+frontend/assets/fabrics/category-1/velutto08_570x480.jpg
+frontend/assets/fabrics/category-1/velutto09_570x480.jpg
+frontend/assets/fabrics/category-1/velutto10_570x480.jpg
+frontend/assets/fabrics/category-1/velutto11_570x480.jpg
+frontend/assets/fabrics/category-1/velutto12_570x480.jpg
+frontend/assets/fabrics/category-1/velutto13_570x480.jpg
+frontend/assets/fabrics/category-1/velutto14_570x480.jpg
+frontend/assets/fabrics/category-1/velutto15_570x480.jpg
+frontend/assets/fabrics/category-1/velutto16_570x480.jpg
+frontend/assets/fabrics/category-1/velutto17_570x480.jpg
+frontend/assets/fabrics/category-1/velutto18_570x480.jpg
+frontend/assets/fabrics/category-1/velutto19_570x480.jpg
+frontend/assets/fabrics/category-1/velutto20_570x480.jpg
+frontend/assets/fabrics/category-1/velutto21_570x480.jpg
+frontend/assets/fabrics/category-1/velutto22_570x480.jpg
+frontend/assets/fabrics/category-1/velutto23_570x480.jpg
+frontend/assets/fabrics/category-1/velutto24_570x480.jpg
+frontend/assets/fabrics/category-1/velutto25_570x480.jpg
+frontend/assets/fabrics/category-1/velutto26_570x480.jpg
+frontend/assets/fabrics/category-1/velutto27_570x480.jpg
+frontend/assets/fabrics/category-1/velutto28_570x480.jpg
+frontend/assets/fabrics/category-1/velutto29_570x480.jpg
+frontend/assets/fabrics/category-1/velutto30_570x480.jpg
+frontend/assets/fabrics/category-1/velutto31_570x480.jpg
+frontend/assets/fabrics/category-1/velutto32_570x480.jpg
+frontend/assets/fabrics/category-1/velutto33_570x480.jpg
+frontend/assets/fabrics/category-1/velutto34_570x480.jpg
+frontend/assets/fabrics/category-1/velutto35_570x480.jpg
+frontend/assets/fabrics/category-1/velutto36_570x480.jpg
+frontend/assets/fabrics/category-1/velutto37_570x480.jpg
+frontend/assets/fabrics/category-1/velutto38_570x480.jpg
+frontend/assets/fabrics/category-1/velutto39_570x480.jpg
+frontend/assets/fabrics/category-1/velutto40_570x480.jpg
+frontend/assets/fabrics/category-1/velutto41_570x480.jpg
+frontend/assets/fabrics/category-1/velutto42_570x480.jpg
+frontend/assets/fabrics/category-1/velutto43_570x480.jpg
+frontend/assets/fabrics/category-1/velutto44_570x480.jpg
+frontend/assets/fabrics/category-1/velutto45_570x480.jpg
+frontend/assets/fabrics/category-1/velutto46_570x480.jpg
+frontend/assets/fabrics/category-1/velutto47_570x480.jpg
+frontend/assets/fabrics/category-1/velutto48_570x480.jpg
+frontend/assets/fabrics/category-1/velutto49_570x480.jpg
+frontend/assets/fabrics/category-1/velutto50_570x480.jpg
+frontend/assets/fabrics/category-1/velutto51_570x480.jpg
+frontend/assets/fabrics/category-1/velutto52_570x480.jpg
+frontend/assets/fabrics/category-1/velutto53_570x480.jpg
+frontend/assets/fabrics/category-1/velutto54_570x480.jpg
+frontend/assets/fabrics/category-1/velutto55_570x480.jpg
+frontend/assets/fabrics/category-1/velutto56_570x480.jpg
+frontend/assets/fabrics/category-1/velutto57_570x480.jpg
+frontend/assets/fabrics/category-1/velutto58_570x480.jpg
+frontend/assets/fabrics/category-1/velutto59_570x480.jpg
+frontend/assets/fabrics/category-1/velutto60_570x480.jpg
+frontend/assets/fabrics/category-1/velutto61_570x480.jpg
+frontend/assets/fabrics/category-1/velutto62_570x480.jpg
+frontend/assets/fabrics/category-1/velutto63_570x480.jpg
+frontend/assets/fabrics/category-1/velutto64_570x480.jpg
+frontend/assets/fabrics/category-1/velutto65_570x480.jpg
+frontend/assets/fabrics/category-1/velutto66_570x480.jpg
+frontend/assets/fabrics/category-1/velutto67_570x480.jpg
+frontend/assets/fabrics/category-1/velutto68_570x480.jpg
+frontend/assets/fabrics/category-1/velutto69_570x480.jpg
+frontend/assets/fabrics/category-1/velutto70_570x480.jpg
+frontend/assets/fabrics/category-1/velutto71_570x480.jpg
+frontend/assets/fabrics/category-1/velutto72_570x480.jpg
+frontend/assets/fabrics/category-1/velutto73_570x480.jpg
+frontend/assets/fabrics/category-1/velutto74_570x480.jpg
+frontend/assets/fabrics/category-1/velutto75_570x480.jpg
+frontend/assets/fabrics/category-1/velutto76_570x480.jpg
+frontend/assets/fabrics/category-1/velutto77_570x480.jpg
+frontend/assets/fabrics/category-10/.DS_Store
+frontend/assets/fabrics/category-10/index.json
+frontend/assets/fabrics/category-10/limber_01_coconut_dsc_2404.jpg
+frontend/assets/fabrics/category-10/limber_02_angora_dsc_2677.jpg
+frontend/assets/fabrics/category-10/limber_03_cappuccino_dsc_3476.jpg
+frontend/assets/fabrics/category-10/limber_04_cocoa_dsc_2081.jpg
+frontend/assets/fabrics/category-10/limber_05_light_grey_dsc_3208.jpg
+frontend/assets/fabrics/category-10/limber_06_silver_dsc_2928.jpg
+frontend/assets/fabrics/category-10/limber_07_grey_dsc_1858.jpg
+frontend/assets/fabrics/category-10/limber_08_olive_dsc_1489.jpg
+frontend/assets/fabrics/category-10/limber_09_forest_dsc_1664.jpg
+frontend/assets/fabrics/category-10/limber_10_pacific_dsc_1312.jpg
+frontend/assets/fabrics/category-11/index.json
+frontend/assets/fabrics/category-11/sunrise_10_dsc_4237.jpg.jpg
+frontend/assets/fabrics/category-11/sunrise_11_dsc_62721.jpg
+frontend/assets/fabrics/category-11/sunrise_15_dsc_5348.jpg.jpg
+frontend/assets/fabrics/category-11/sunrise_16_dsc_6982.jpg
+frontend/assets/fabrics/category-11/sunrise_18_dsc_5626.jpg
+frontend/assets/fabrics/category-11/sunrise_21_dsc_5102.jpg.jpg
+frontend/assets/fabrics/category-11/sunrise_22_dsc_6671.jpg
+frontend/assets/fabrics/category-11/sunrise_3_dsc_4542.jpg.jpg
+frontend/assets/fabrics/category-11/sunrise_4_dsc_7320.jpg.jpg
+frontend/assets/fabrics/category-11/sunrise_5_dsc_3917.jpg.jpg
+frontend/assets/fabrics/category-11/sunrise_6_dsc_5960.jpg
+frontend/assets/fabrics/category-11/sunrise_7_dsc_4860.jpg
+frontend/assets/fabrics/category-12/19_phlox_img_8843_1.jpg
+frontend/assets/fabrics/category-12/index.json
+frontend/assets/fabrics/category-12/phlox_10_img_8882_.jpg
+frontend/assets/fabrics/category-12/phlox_11_img_8711_.jpg
+frontend/assets/fabrics/category-12/phlox_12_img_8630_.jpg
+frontend/assets/fabrics/category-12/phlox_13_img_8907_.jpg
+frontend/assets/fabrics/category-12/phlox_15_img_8771_.jpg
+frontend/assets/fabrics/category-12/phlox_16_img_8697_.jpg
+frontend/assets/fabrics/category-12/phlox_18_img_8841_.jpg
+frontend/assets/fabrics/category-12/phlox_1_img_8668_.jpg
+frontend/assets/fabrics/category-12/phlox_20_img_8892_.jpg
+frontend/assets/fabrics/category-12/phlox_21_img_8856_.jpg
+frontend/assets/fabrics/category-12/phlox_22_img_8810_.jpg
+frontend/assets/fabrics/category-12/phlox_24_img_8782_.jpg
+frontend/assets/fabrics/category-12/phlox_2_img_8796_.jpg
+frontend/assets/fabrics/category-12/phlox_3_img_8683_.jpg
+frontend/assets/fabrics/category-12/phlox_4_img_8756_.jpg
+frontend/assets/fabrics/category-12/phlox_8_img_8830_.jpg
+frontend/assets/fabrics/category-2/evita_ash.jpeg
+frontend/assets/fabrics/category-2/evita_biscuit.jpeg
+frontend/assets/fabrics/category-2/evita_blue.jpeg
+frontend/assets/fabrics/category-2/evita_bone.jpeg
+frontend/assets/fabrics/category-2/evita_bone_krup._plan.jpeg
+frontend/assets/fabrics/category-2/evita_caramel.jpeg
+frontend/assets/fabrics/category-2/evita_chocolate.jpeg
+frontend/assets/fabrics/category-2/evita_cocoa.jpeg
+frontend/assets/fabrics/category-2/evita_coral.jpeg
+frontend/assets/fabrics/category-2/evita_dimrose.jpeg
+frontend/assets/fabrics/category-2/evita_grey.jpeg
+frontend/assets/fabrics/category-2/evita_ivory.jpeg
+frontend/assets/fabrics/category-2/evita_latte.jpeg
+frontend/assets/fabrics/category-2/evita_mint.jpeg
+frontend/assets/fabrics/category-2/evita_mocca.jpeg
+frontend/assets/fabrics/category-2/evita_nougat.jpeg
+frontend/assets/fabrics/category-2/evita_nut.jpeg
+frontend/assets/fabrics/category-2/evita_ocean.jpeg
+frontend/assets/fabrics/category-2/evita_olive.jpeg
+frontend/assets/fabrics/category-2/evita_pistachio.jpeg
+frontend/assets/fabrics/category-2/evita_stone.jpeg
+frontend/assets/fabrics/category-2/evita_teal.jpeg
+frontend/assets/fabrics/category-2/evita_terra.jpeg
+frontend/assets/fabrics/category-2/evita_umber.jpeg
+frontend/assets/fabrics/category-2/evita_viola.jpeg
+frontend/assets/fabrics/category-2/evita_wine.jpeg
+frontend/assets/fabrics/category-2/index.json
+frontend/assets/fabrics/category-3/index.json
+frontend/assets/fabrics/category-3/kiton-701-img_9609.jpg
+frontend/assets/fabrics/category-3/kiton-702-img_9850.jpg
+frontend/assets/fabrics/category-3/kiton-703-img_9335.jpg
+frontend/assets/fabrics/category-3/kiton-704-img_7559.jpg
+frontend/assets/fabrics/category-3/kiton-705-img_8850.jpg
+frontend/assets/fabrics/category-3/kiton-706-img_1156.jpg
+frontend/assets/fabrics/category-3/kiton-707-img_1600.jpg
+frontend/assets/fabrics/category-3/kiton-708-img_5723.jpg
+frontend/assets/fabrics/category-3/kiton-709-img_5488.jpg
+frontend/assets/fabrics/category-3/kiton-710-img_1852.jpg
+frontend/assets/fabrics/category-3/kiton-711-img_8574.jpg
+frontend/assets/fabrics/category-3/kiton-712-img_7300.jpg
+frontend/assets/fabrics/category-3/kiton-713-img_8075.jpg
+frontend/assets/fabrics/category-3/kiton-714-img_0911.jpg
+frontend/assets/fabrics/category-3/kiton-715-img_7059.jpg
+frontend/assets/fabrics/category-3/kiton-716-img_0097.jpg
+frontend/assets/fabrics/category-3/kiton-717-img_0644.jpg
+frontend/assets/fabrics/category-3/kiton-718-img_7813.jpg
+frontend/assets/fabrics/category-3/kiton-719-img_6019.jpg
+frontend/assets/fabrics/category-3/kiton-720-img_6544.jpg
+frontend/assets/fabrics/category-3/kiton-721-img_6248.jpg
+frontend/assets/fabrics/category-3/kiton-722-img_9080.jpg
+frontend/assets/fabrics/category-3/kiton-723-img_0357.jpg
+frontend/assets/fabrics/category-3/kiton-724-img_6810.jpg
+frontend/assets/fabrics/category-3/kiton-725-img_8331.jpg
+frontend/assets/fabrics/category-3/kiton-726-img_1363.jpg
+frontend/assets/fabrics/category-3/kiton-727-img-img.jpg
+frontend/assets/fabrics/category-4/diagonal100_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal114_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal160_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal233_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal268_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal290_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal310_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal411_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal540_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal618_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal694_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal779_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal900_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal995_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal997_570x480.jpg
+frontend/assets/fabrics/category-4/diagonal999_570x480.jpg
+frontend/assets/fabrics/category-4/index.json
+frontend/assets/fabrics/category-5/index.json
+frontend/assets/fabrics/category-5/marbel-101-dsc_0434.jpg
+frontend/assets/fabrics/category-5/marbel-102-dsc_0103.jpg
+frontend/assets/fabrics/category-5/marbel-103-dsc_1154.jpg
+frontend/assets/fabrics/category-5/marbel-104-dsc_1299.jpg
+frontend/assets/fabrics/category-5/marbel-105-dsc_0781.jpg
+frontend/assets/fabrics/category-5/marbel-106-dsc_0616.jpg
+frontend/assets/fabrics/category-5/marbel-107-dsc_9895.jpg
+frontend/assets/fabrics/category-5/marbel-108-dsc_0257.jpg
+frontend/assets/fabrics/category-5/marbel-109-dsc_1488.jpg
+frontend/assets/fabrics/category-5/marbel-110-dsc_2475.jpg
+frontend/assets/fabrics/category-6/index.json
+frontend/assets/fabrics/category-6/premier01_570x480.jpg
+frontend/assets/fabrics/category-6/premier02_570x480.jpg
+frontend/assets/fabrics/category-6/premier03_570x480.jpg
+frontend/assets/fabrics/category-6/premier04_570x480.jpg
+frontend/assets/fabrics/category-6/premier05_570x480.jpg
+frontend/assets/fabrics/category-6/premier06_570x480.jpg
+frontend/assets/fabrics/category-6/premier07_570x480.jpg
+frontend/assets/fabrics/category-6/premier08_570x480.jpg
+frontend/assets/fabrics/category-6/premier09_570x480.jpg
+frontend/assets/fabrics/category-6/premier10_570x480.jpg
+frontend/assets/fabrics/category-6/premier11_570x480.jpg
+frontend/assets/fabrics/category-6/premier12_570x480.jpg
+frontend/assets/fabrics/category-6/premier13_570x480.jpg
+frontend/assets/fabrics/category-6/premier14_570x480.jpg
+frontend/assets/fabrics/category-6/premier15_570x480.jpg
+frontend/assets/fabrics/category-6/premier16_570x480.jpg
+frontend/assets/fabrics/category-6/premier17_570x480.jpg
+frontend/assets/fabrics/category-6/premier18_570x480.jpg
+frontend/assets/fabrics/category-6/premier19_570x480.jpg
+frontend/assets/fabrics/category-6/premier20_570x480.jpg
+frontend/assets/fabrics/category-6/premier21_570x480.jpg
+frontend/assets/fabrics/category-6/premier22_570x480.jpg
+frontend/assets/fabrics/category-6/premier23_570x480.jpg
+frontend/assets/fabrics/category-6/premier24_570x480.jpg
+frontend/assets/fabrics/category-6/premier25_570x480.jpg
+frontend/assets/fabrics/category-7/index.json
+frontend/assets/fabrics/category-7/piano_10_img_5346.jpg
+frontend/assets/fabrics/category-7/piano_11_img_5330.jpg
+frontend/assets/fabrics/category-7/piano_12_img_5365.jpg
+frontend/assets/fabrics/category-7/piano_13_img_5497.jpg
+frontend/assets/fabrics/category-7/piano_14_img_5486.jpg
+frontend/assets/fabrics/category-7/piano_15_img_5450.jpg
+frontend/assets/fabrics/category-7/piano_16_img_5373.jpg
+frontend/assets/fabrics/category-7/piano_17_img_5390.jpg
+frontend/assets/fabrics/category-7/piano_18_img_5418.jpg
+frontend/assets/fabrics/category-7/piano_19_img_5404.jpg
+frontend/assets/fabrics/category-7/piano_1_img_5203.jpg
+frontend/assets/fabrics/category-7/piano_20_img_5434.jpg
+frontend/assets/fabrics/category-7/piano_2_img_5220.jpg
+frontend/assets/fabrics/category-7/piano_3_img_5254.jpg
+frontend/assets/fabrics/category-7/piano_4_img_5284.jpg
+frontend/assets/fabrics/category-7/piano_5_img_5270.jpg
+frontend/assets/fabrics/category-7/piano_6_img_5301.jpg
+frontend/assets/fabrics/category-7/piano_7_img_5470.jpg
+frontend/assets/fabrics/category-7/piano_8_img_5318.jpg
+frontend/assets/fabrics/category-7/piano_9_img_5232.jpg
+frontend/assets/fabrics/category-8/belgium-7001.jpg
+frontend/assets/fabrics/category-8/belgium-7002.jpg
+frontend/assets/fabrics/category-8/belgium-7003.jpg
+frontend/assets/fabrics/category-8/belgium-7004.jpg
+frontend/assets/fabrics/category-8/belgium-7005.jpg
+frontend/assets/fabrics/category-8/belgium-7006.jpg
+frontend/assets/fabrics/category-8/belgium-7007.jpg
+frontend/assets/fabrics/category-8/belgium-7008.jpg
+frontend/assets/fabrics/category-8/belgium-7009.jpg
+frontend/assets/fabrics/category-8/belgium-7010.jpg
+frontend/assets/fabrics/category-8/belgium-7011.jpg
+frontend/assets/fabrics/category-8/belgium-7012.jpg
+frontend/assets/fabrics/category-8/index.json
+frontend/assets/fabrics/category-9/index.json
+frontend/assets/fabrics/category-9/pandora-301-dsc_8967.jpg
+frontend/assets/fabrics/category-9/pandora-302-dsc_8333.jpg
+frontend/assets/fabrics/category-9/pandora-303-dsc_7714.jpg
+frontend/assets/fabrics/category-9/pandora-304-dsc_8757.jpg
+frontend/assets/fabrics/category-9/pandora-305-dsc_7906.jpg
+frontend/assets/fabrics/category-9/pandora-306-dsc_7400.jpg
+frontend/assets/fabrics/category-9/pandora-307-dsc_7090.jpg
+frontend/assets/fabrics/category-9/pandora-308-dsc_7543.jpg
+frontend/assets/fabrics/category-9/pandora-309-dsc_8137.jpg
+frontend/assets/fabrics/category-9/pandora-310-dsc_7247.jpg
+frontend/assets/fabrics/category-9/pandora-311-dsc_8554.jpg
+frontend/assets/fabrics/category-9/pandora-312-dsc_9160.jpg
+
+===== FRONTEND JS =====
+let PRODUCTS = [];
+let CURRENT_PRODUCT = null;
+let CURRENT_PHOTO_INDEX = 0;
+
+const FABRIC_CATEGORY_NAMES = {
+  1: 'Velutto',
+  2: 'Evita',
+  3: 'Kiton',
+  4: 'Diagonal',
+  5: 'Marbel',
+  6: 'Premier',
+  7: 'Piano',
+  8: 'Belgium',
+  9: 'Pandora',
+  10: 'Limber',
+  11: 'Sunrise',
+  12: 'Phlox'
+};
+
+let PRODUCT_STATE = {
+  selectedCategory: 1,
+  selectedFabricFile: null,
+  selectedFabricLabel: null
+};
+
+function getQueryParam(name) {
+  const params = new URLSearchParams(window.location.search);
+  return params.get(name);
+}
+
+function formatPrice(value) {
+  return new Intl.NumberFormat('ru-RU').format(Number(value || 0)) + ' ₽';
+}
+
+async function loadProducts() {
+  const res = await fetch('./data/products.json?v=' + Date.now());
+  PRODUCTS = await res.json();
+}
+
+function getCart() {
+  return JSON.parse(localStorage.getItem('cart') || '[]');
+}
+
+function setCart(cart) {
+  localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+function addSimpleToCart(productId) {
+  const product = PRODUCTS.find(p => String(p.id) === String(productId));
+  if (!product) return;
+
+  const cart = getCart();
+  cart.push({
+    id: product.id,
+    slug: product.slug,
+    name: product.name,
+    category: product.category,
+    base_price: product.price,
+    selected_fabric_category: 1,
+    selected_fabric_category_name: FABRIC_CATEGORY_NAMES[1],
+    selected_fabric_name: null,
+    selected_fabric_file: null,
+    selected_fabric_path: null,
+    final_price: product.price,
+    qty: 1,
+    photo: product.photos?.[0] || null
+  });
+
+  setCart(cart);
+  alert('Товар добавлен в корзину');
+}
+
+function renderCatalogPage() {
+  const list = document.getElementById('catalog-list');
+  if (!list) return;
+
+  const category = getQueryParam('category');
+  const search = (getQueryParam('search') || '').trim().toLowerCase();
+
+  let items = [...PRODUCTS];
+
+  if (category) {
+    items = items.filter(item => item.category === category);
+  }
+
+  if (search) {
+    items = items.filter(item =>
+      item.name.toLowerCase().includes(search) ||
+      (item.description || '').toLowerCase().includes(search)
+    );
+  }
+
+  if (!items.length) {
+    list.innerHTML = `
+      <div class="empty">
+        <h3>Товаров пока нет</h3>
+        <p>Для этой группы товары ещё не добавлены</p>
+      </div>
+    `;
+    return;
+  }
+
+  list.innerHTML = items.map(item => `
+    <article class="product-catalog-card glass glass-strong">
+      <a href="./product.html?id=${item.id}" class="product-catalog-link">
+        <div class="product-catalog-image-wrap">
+          <img src="${item.photos?.[0] || ''}" alt="${item.name}" class="product-catalog-image">
+        </div>
+      </a>
+
+      <div class="product-catalog-body">
+        <div class="product-catalog-badge">${item.badge || 'Модель'}</div>
+        <a href="./product.html?id=${item.id}" class="product-catalog-title">${item.name}</a>
+        <div class="product-catalog-specs">${item.short_specs || ''}</div>
+        <div class="product-catalog-price-row">
+          <div class="product-catalog-price">${formatPrice(item.price)}</div>
+          ${item.old_price ? `<div class="product-catalog-old-price">${formatPrice(item.old_price)}</div>` : ''}
+        </div>
+        <div class="product-catalog-actions">
+          <button class="primary-btn" onclick="addSimpleToCart(${item.id})">🛒 В корзину</button>
+          <a href="./product.html?id=${item.id}" class="ghost-btn product-open-btn">Открыть</a>
+        </div>
+      </div>
+    </article>
+  `).join('');
+}
+
+async function loadCurrentProduct() {
+  const productId = getQueryParam('id') || '101';
+  CURRENT_PRODUCT = PRODUCTS.find(p => String(p.id) === String(productId)) || null;
+}
+
+function getCurrentPrice() {
+  if (!CURRENT_PRODUCT) return 0;
+  const extra = Number(CURRENT_PRODUCT.fabric_prices?.[String(PRODUCT_STATE.selectedCategory)] || 0);
+  return Number(CURRENT_PRODUCT.price) + extra;
+}
+
+function changeProductPhoto(index) {
+  CURRENT_PHOTO_INDEX = index;
+  renderProductPage();
+}
+
+function bindStickyButtons() {
+  const cartBtn = document.getElementById('sticky-cart-btn');
+  const fabricBtn = document.getElementById('sticky-fabric-btn');
+  const managerBtn = document.getElementById('sticky-manager-btn');
+  const favBtn = document.getElementById('sticky-fav-btn');
+
+  if (cartBtn) cartBtn.onclick = addConfiguredProductToCart;
+  if (fabricBtn) fabricBtn.onclick = openFabricCategorySheet;
+  if (managerBtn) managerBtn.onclick = () => alert('Менеджера подключим следующим шагом');
+  if (favBtn) favBtn.onclick = () => alert('Избранное подключим следующим шагом');
+}
+
+function renderProductPage() {
+  const root = document.getElementById('product-page-root');
+  if (!root || !CURRENT_PRODUCT) return;
+
+  const photos = CURRENT_PRODUCT.photos || [];
+  const currentPhoto = photos[CURRENT_PHOTO_INDEX] || photos[0] || '';
+  const currentPrice = getCurrentPrice();
+  const monthly = Math.round(currentPrice / 12);
+
+  root.innerHTML = `
+    <section class="product-premium">
+      <section class="product-card-block glass glass-strong">
+        <div class="product-gallery-premium">
+          <div class="product-main-image-wrap">
+            <img src="${currentPhoto}" alt="${CURRENT_PRODUCT.name}">
+          </div>
+
+          <div class="product-thumbs-row">
+            ${photos.map((photo, index) => `
+              <button class="product-thumb-btn" onclick="changeProductPhoto(${index})">
+                <img src="${photo}" alt="Фото ${index + 1}">
+              </button>
+            `).join('')}
+          </div>
+        </div>
+      </section>
+
+      <section class="product-card-block glass glass-strong">
+        <div class="product-top-line">
+          <div class="product-rating-line">
+            <strong>⭐ 4.9</strong>
+            <span>128 отзывов</span>
+          </div>
+          <button class="icon-btn">♡</button>
+        </div>
+
+        <h1 class="product-title-main">${CURRENT_PRODUCT.name}</h1>
+
+        <div class="product-badge-row">
+          <span class="product-badge-pill">Собственное производство</span>
+          <span class="product-badge-pill">Популярная модель</span>
+          <span class="product-badge-pill">12 категорий ткани</span>
+        </div>
+
+        <div class="product-price-box">
+          <div class="product-price-caption">Цена от</div>
+          <div class="product-price-main">${formatPrice(currentPrice)}</div>
+          <div class="product-price-old">${formatPrice(CURRENT_PRODUCT.old_price || currentPrice)}</div>
+          <div class="product-installment">Рассрочка от ${formatPrice(monthly)}/мес</div>
+        </div>
+
+        <div class="product-quick-specs">
+          <div class="product-quick-spec">
+            <div class="product-quick-spec-icon">📏</div>
+            <div>
+              <div class="product-quick-spec-label">Ширина</div>
+              <div class="product-quick-spec-value">220 см</div>
+            </div>
+          </div>
+
+          <div class="product-quick-spec">
+            <div class="product-quick-spec-icon">⚙️</div>
+            <div>
+              <div class="product-quick-spec-label">Механизм</div>
+              <div class="product-quick-spec-value">Пантограф</div>
+            </div>
+          </div>
+
+          <div class="product-quick-spec">
+            <div class="product-quick-spec-icon">🧩</div>
+            <div>
+              <div class="product-quick-spec-label">Наполнение</div>
+              <div class="product-quick-spec-value">Независимый пружинный блок</div>
+            </div>
+          </div>
+
+          <div class="product-quick-spec">
+            <div class="product-quick-spec-icon">🛡️</div>
+            <div>
+              <div class="product-quick-spec-label">Гарантия</div>
+              <div class="product-quick-spec-value">24 месяца</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-card-block glass glass-strong">
+        <div class="selected-fabric-card">
+          <div class="selected-fabric-title">Выбранная ткань</div>
+          <div class="selected-fabric-sub">
+            Категория ${PRODUCT_STATE.selectedCategory} — ${FABRIC_CATEGORY_NAMES[PRODUCT_STATE.selectedCategory]}
+            ${PRODUCT_STATE.selectedFabricLabel ? `• ${PRODUCT_STATE.selectedFabricLabel}` : '• ткань не выбрана'}
+          </div>
+          <button class="primary-btn" onclick="openFabricCategorySheet()">🧵 Изменить ткань</button>
+        </div>
+      </section>
+
+      <section class="product-card-block glass glass-strong">
+        <div class="product-info-grid">
+          <div class="product-info-box">
+            <h3>Почему этот диван хороший</h3>
+            <p>${CURRENT_PRODUCT.description || ''}</p>
+          </div>
+        </div>
+      </section>
+
+===== FRONTEND CSS =====
+:root {
+  --bg: #f4f1eb;
+  --bg-2: #efe9df;
+  --text: #1a1a1f;
+  --muted: #6f6b67;
+  --line: rgba(255, 255, 255, 0.35);
+  --glass: rgba(255, 255, 255, 0.38);
+  --glass-strong: rgba(255, 255, 255, 0.52);
+  --shadow: 0 10px 30px rgba(80, 68, 48, 0.12);
+  --shadow-2: 0 20px 50px rgba(80, 68, 48, 0.18);
+  --accent: #8a6cff;
+  --accent-2: #c8a97e;
+  --dark: #111218;
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(circle at top left, rgba(255,255,255,0.85), transparent 30%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  min-height: 100%;
+}
+
+a { text-decoration: none; color: inherit; }
+button, input, textarea, select { font: inherit; }
+
+.app-shell {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px 16px 132px;
+  position: relative;
+  z-index: 2;
+}
+
+.bg-orb {
+  position: fixed;
+  border-radius: 999px;
+  filter: blur(70px);
+  opacity: 0.55;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb-1 { width: 280px; height: 280px; top: -60px; left: -60px; background: rgba(196, 173, 255, 0.55); }
+.orb-2 { width: 300px; height: 300px; top: 180px; right: -80px; background: rgba(255, 214, 170, 0.45); }
+.orb-3 { width: 260px; height: 260px; bottom: 80px; left: 30%; background: rgba(188, 228, 255, 0.38); }
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(22px) saturate(140%);
+  -webkit-backdrop-filter: blur(22px) saturate(140%);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.glass-strong { background: var(--glass-strong); }
+
+.topbar {
+  border-radius: 30px;
+  padding: 16px;
+  margin-bottom: 18px;
+}
+
+.topbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.topbar-label { margin: 0 0 4px; color: var(--muted); font-size: 13px; }
+.topbar-city { margin: 0; font-size: 28px; line-height: 1.05; font-weight: 800; letter-spacing: -0.03em; }
+
+.topbar-actions { display: flex; gap: 10px; }
+
+.icon-btn {
+  width: 46px;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.55);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 10px 20px rgba(30,30,40,0.08);
+  font-size: 20px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 66px;
+  padding: 0 18px;
+  border-radius: 24px;
+}
+
+.search-icon { font-size: 22px; color: var(--accent); }
+.search-placeholder { flex: 1; color: #726b82; font-size: 18px; font-weight: 600; }
+.search-badge {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(138, 108, 255, 0.14);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr;
+  gap: 18px;
+  border-radius: 34px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-2);
+}
+
+.hero-copy h2 {
+  margin: 12px 0 10px;
+  font-size: 42px;
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.hero-copy p { margin: 0; font-size: 16px; line-height: 1.5; color: var(--muted); max-width: 560px; }
+
+.hero-buttons { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+
+.primary-btn,
+.ghost-btn {
+  min-height: 50px;
+  padding: 0 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #a78bfa, #8a6cff);
+  color: white;
+  box-shadow: 0 12px 24px rgba(138,108,255,0.28);
+}
+
+.ghost-btn {
+  background: rgba(255,255,255,0.42);
+  border: 1px solid rgba(255,255,255,0.55);
+  color: var(--dark);
+}
+
+.hero-visual { display: grid; gap: 12px; align-content: center; }
+
+.hero-card {
+  border-radius: 24px;
+  padding: 18px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.hero-emoji {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  background: rgba(255,255,255,0.45);
+}
+
+.hero-mini-title { font-weight: 800; font-size: 16px; margin-bottom: 4px; }
+.hero-mini-text { font-size: 14px; color: var(--muted); }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.5);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid rgba(255,255,255,0.6);
+}
+
+.chip-soft { color: #7b5cf0; background: rgba(167, 139, 250, 0.14); }
+
+.section-block { margin-bottom: 22px; }
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.section-head h3 { margin: 0; font-size: 28px; letter-spacing: -0.03em; }
+.section-head a { color: var(--accent); font-weight: 700; }
+
+.category-strip {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.category-strip::-webkit-scrollbar { display: none; }
+
+.category-pill {
+  min-width: 140px;
+  min-height: 86px;
+  border-radius: 24px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+.category-pill span:first-child { font-size: 24px; }
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.product-card {
+  border-radius: 28px;
+  padding: 14px;
+  background: rgba(255,255,255,0.38);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.45);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+.product-media {
+  height: 220px;
+  border-radius: 22px;
+  overflow: hidden;
+  margin-bottom: 14px;
+  background: linear-gradient(135deg, #ded6cb, #f7f3ec);
+}
+
+.product-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-card h4 { margin: 0 0 8px; font-size: 22px; letter-spacing: -0.03em; }
+.product-card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.45; }
+
+.product-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.price-stack { display: flex; flex-direction: column; gap: 4px; }
+.price-current { font-size: 26px; font-weight: 800; letter-spacing: -0.04em; }
+.price-old { font-size: 15px; color: #9d978f; text-decoration: line-through; }
+
+.product-actions { display: flex; gap: 8px; }
+
+.round-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  border: 0;
+  background: rgba(255,255,255,0.58);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.75), 0 8px 18px rgba(30,30,40,0.08);
+  cursor: pointer;
+}
+
+.custom-banner {
+  border-radius: 30px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.custom-banner h3 { margin: 10px 0 8px; font-size: 30px; letter-spacing: -0.04em; }
+.custom-banner p { margin: 0; color: var(--muted); max-width: 620px; }
+
+===== PRODUCT.HTML =====
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Карточка товара</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main id="product-page-root" class="page product-page-premium"></main>
+
+    <div class="product-sticky-action-bar glass glass-strong">
+      <button id="sticky-cart-btn" class="primary-btn">🛒 Добавить в корзину</button>
+      <button id="sticky-fabric-btn" class="ghost-btn">🧵 Изменить ткань</button>
+      <button id="sticky-manager-btn" class="ghost-btn">💬 Менеджер</button>
+      <button id="sticky-fav-btn" class="icon-btn">♡</button>
+    </div>
+
+    <div id="fabric-category-sheet" class="sheet-backdrop" style="display:none;">
+      <div class="sheet-panel">
+        <div class="sheet-head">
+          <h3>Категории ткани</h3>
+          <button class="icon-btn" onclick="closeFabricSheets()">✕</button>
+        </div>
+        <div id="fabric-category-list" class="sheet-list"></div>
+      </div>
+    </div>
+
+    <div id="fabric-color-sheet" class="sheet-backdrop" style="display:none;">
+      <div class="sheet-panel">
+        <div class="sheet-head">
+          <h3 id="fabric-color-title">Выберите ткань</h3>
+          <button class="icon-btn" onclick="closeFabricSheets()">✕</button>
+        </div>
+        <div id="fabric-color-grid" class="fabric-color-grid"></div>
+      </div>
+    </div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./custom.html" class="nav-item">
+          <span>✎</span>
+          <span>Нестандарт</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
+
+===== CATALOG.HTML =====
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page">
+      <section class="section-head">
+        <div>
+          <div class="eyebrow">Каталог</div>
+          <h1>Мебель Ventoria</h1>
+        </div>
+      </section>
+
+      <section class="toolbar glass glass-strong">
+        <input
+          class="input"
+          placeholder="Поиск по товарам..."
+          onkeydown="if(event.key==='Enter'){location.href='./catalog.html?search='+encodeURIComponent(this.value)}"
+        >
+      </section>
+
+      <section id="catalog-list" class="products"></section>
+    </main>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item active">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./custom.html" class="nav-item">
+          <span>✎</span>
+          <span>Нестандарт</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+===== KROVATI IN PRODUCTS.JSON =====
+Количество кроватей: 45
+520 | beds-infiniti | Кровать Infiniti | 65800
+537 | beds-rivera | Кровать Rivera | 38100
+502 | beds-artel | Кровать Артель | 50900
+503 | beds-astra | Кровать Астра | 48600
+504 | beds-atmosfera | Кровать Атмосфера | 65800
+505 | beds-aura | Кровать Аура | 38100
+506 | beds-balans | Кровать Баланс | 55400
+543 | beds-vega | Кровать Вега | 48600
+544 | beds-vektor | Кровать Вектор | 65800
+545 | beds-verona | Кровать Верона | 38100
+
+===== CATEGORY CONFIG IN APP.JS =====
+560:  return product && product.category === 'krovati';
+1137:    'krovati': {
+
+===== PRODUCT-LIST PAGE EXISTS =====
+-rw-r--r--  1 vitalijguncak  staff  4776 25 мар 18:26 frontend/product-list.html
+
+===== CATEGORY PAGE EXISTS =====
+-rw-r--r--  1 vitalijguncak  staff  2329 25 мар 15:17 frontend/category.html

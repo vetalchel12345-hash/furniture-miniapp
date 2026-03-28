@@ -1,0 +1,12 @@
+Шаг 5. Запусти backend и frontend
+
+Терминал 1:
+
+cd ~/Desktop/furniture_miniapp/backend
+source .venv/bin/activate
+uvicorn app.main:app --reload
+
+Терминал 2:
+
+cd ~/Desktop/furniture_miniapp/frontend
+python3 -m http.server 8080

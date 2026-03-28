@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Личный кабинет</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page">
+      <header class="topbar glass glass-strong">
+        <div class="topbar-row">
+          <div>
+            <p class="topbar-label">Личный кабинет</p>
+            <h1 class="topbar-city">Мой профиль</h1>
+          </div>
+
+          <div class="topbar-actions">
+            <a class="icon-btn" href="./index.html" aria-label="Главная">⌂</a>
+            <a class="icon-btn" href="./cart.html" aria-label="Корзина">🛒</a>
+          </div>
+        </div>
+      </header>
+
+      <section id="profile-dashboard" class="profile-layout">
+        <section class="profile-hero glass glass-strong">
+          <div class="profile-avatar">👤</div>
+          <div class="profile-main">
+            <div class="profile-name-row">
+              <h2 id="profile-name">Гость</h2>
+              <span id="profile-status" class="profile-status">Новичок</span>
+            </div>
+            <div class="profile-meta">
+              <span id="profile-city">Город не указан</span>
+              <span id="profile-phone">Телефон не указан</span>
+            </div>
+          </div>
+          <button class="ghost-btn" type="button" onclick="logoutProfile()">Выйти</button>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>🔥 Мои заказы</h3>
+            <a href="#">Все</a>
+          </div>
+          <div id="profile-orders" class="orders-grid"></div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>⚡ Быстрые действия</h3>
+          </div>
+          <div class="quick-actions-grid">
+            <button class="quick-action" type="button">❤️ Избранное</button>
+            <button class="quick-action" type="button">🧩 Мои проекты</button>
+            <button class="quick-action" type="button">📐 Замеры помещения</button>
+            <button class="quick-action" type="button">📞 Менеджер</button>
+            <button class="quick-action" type="button">🎁 Бонусы</button>
+          </div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>❤️ Избранное</h3>
+          </div>
+          <div id="profile-favorites" class="mini-list"></div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>🧩 Мои проекты</h3>
+          </div>
+          <div class="mini-list">
+            <div class="mini-card">🏡 Квартира на Пушкина</div>
+            <div class="mini-card">🏢 Офис</div>
+            <div class="mini-card">🛏️ Спальня сына</div>
+          </div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>📐 Замеры помещения</h3>
+          </div>
+          <div class="mini-list">
+            <div class="mini-card">Гостиная — 520×410 см</div>
+            <div class="mini-card">Спальня — 340×300 см</div>
+          </div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>👤 Личные данные</h3>
+          </div>
+          <div class="form-grid two">
+            <input id="profile-edit-name" class="input" placeholder="Имя" />
+            <input id="profile-edit-phone" class="input" placeholder="Телефон" />
+          </div>
+          <div class="form-grid two">
+            <input id="profile-edit-email" class="input" placeholder="Email" />
+            <input id="profile-edit-city" class="input" placeholder="Город" />
+          </div>
+          <div class="form-grid three">
+            <input class="input" placeholder="🏠 Дом" />
+            <input class="input" placeholder="🏢 Работа" />
+            <input class="input" placeholder="🏗️ Объект ремонта" />
+          </div>
+          <div style="height:12px;"></div>
+          <button class="primary-btn" type="button" onclick="saveProfileEdits()">Сохранить данные</button>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>💳 Оплата и документы</h3>
+          </div>
+          <div class="mini-list">
+            <div class="mini-card">Привязанные карты</div>
+            <div class="mini-card">История оплат</div>
+            <div class="mini-card">Счета и договоры</div>
+            <div class="mini-card">Гарантийные талоны</div>
+          </div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>🎁 Бонусы и скидки</h3>
+          </div>
+          <div class="bonus-box">
+            <div>⭐ Баллы: <strong>2 450</strong></div>
+            <div>🎟️ Купоны: <strong>2 активных</strong></div>
+            <div>🔥 Персональное предложение: <strong>Скидка 7%</strong></div>
+          </div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>🛠️ Поддержка</h3>
+          </div>
+          <div class="mini-list">
+            <div class="mini-card">👩‍💼 Ваш персональный менеджер: Анна</div>
+            <div class="mini-card">💬 Чат с менеджером</div>
+            <div class="mini-card">📞 Позвонить</div>
+            <div class="mini-card">❓ FAQ</div>
+            <div class="mini-card">📝 Открыть обращение</div>
+          </div>
+        </section>
+
+        <section class="profile-section glass glass-strong">
+          <div class="section-head">
+            <h3>⚙️ Настройки</h3>
+          </div>
+          <div class="mini-list">
+            <div class="mini-card">Уведомления</div>
+            <div class="mini-card">Язык</div>
+            <div class="mini-card">Валюта</div>
+            <div class="mini-card">Тема</div>
+            <div class="mini-card danger">Удаление аккаунта</div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div id="auth-modal" class="auth-modal" style="display:none;">
+      <div class="auth-backdrop"></div>
+      <div class="auth-card glass glass-strong">
+        <div class="section-head">
+          <h3>👤 Регистрация</h3>
+        </div>
+        <p class="auth-text">Зарегистрируйтесь, чтобы сохранять проекты, заказы, избранное и получать персональные предложения.</p>
+
+        <div class="form-grid two">
+          <input id="auth-name" class="input" placeholder="Имя" />
+          <input id="auth-city" class="input" placeholder="Город" />
+        </div>
+        <div class="form-grid two">
+          <input id="auth-phone" class="input" placeholder="Телефон" />
+          <input id="auth-email" class="input" placeholder="Email" />
+        </div>
+        <div class="form-grid two">
+          <select id="auth-status" class="input">
+            <option value="Новичок">Новичок</option>
+            <option value="VIP клиент">VIP клиент</option>
+            <option value="Дизайнер">Дизайнер</option>
+          </select>
+          <select id="auth-contact-method" class="input">
+            <option value="Телефон">Телефон</option>
+            <option value="WhatsApp">WhatsApp</option>
+            <option value="Telegram">Telegram</option>
+            <option value="Email">Email</option>
+          </select>
+        </div>
+
+        <div style="height:14px;"></div>
+        <button class="submit-big primary-btn" type="button" onclick="registerProfile()">Зарегистрироваться</button>
+      </div>
+    </div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item active">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

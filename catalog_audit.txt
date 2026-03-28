@@ -1,0 +1,493 @@
+===== CATALOG.HTML =====
+<!DOCTYPE html>
+<select id="sortSelect" class="sort-select">
+  <option value="price-asc">Цена ↑</option>
+  <option value="price-desc">Цена ↓</option>
+  <option value="popular">Популярные</option>
+  <option value="new">Новинки</option>
+</select>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог мебели</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page catalog-root-page">
+      <section class="catalog-hero glass glass-strong">
+        <div class="eyebrow">Каталог мебели</div>
+        <h1 class="catalog-hero-title">Подберите модель под ваш интерьер</h1>
+        <p class="catalog-hero-subtitle">
+          Диваны, кровати, кресла и мебель для дома в едином премиальном стиле.
+        </p>
+      </section>
+
+      <section id="catalog-groups-grid" class="catalog-groups-grid">
+        <article class="catalog-group-card glass glass-strong" data-name="диваны" onclick="goRootCategory('divany')">
+          <img src="./assets/categories/divany.jpg" alt="Диваны" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Диваны</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="кровати" onclick="goRootCategory('krovati')">
+          <img src="./assets/categories/beds.jpg" alt="Кровати" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Кровати</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="матрасы" onclick="showToast('Матрасы подключим следующим этапом')">
+          <img src="./assets/categories/mattresses.jpg" alt="Матрасы" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Матрасы</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="кресла" onclick="goRootCategory('kresla')">
+          <img src="./assets/categories/armchairs.jpg" alt="Кресла" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Кресла</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="столы" onclick="showToast('Столы подключим следующим этапом')">
+          <img src="./assets/categories/tables.jpg" alt="Столы" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Столы</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="стулья" onclick="showToast('Стулья подключим следующим этапом')">
+          <img src="./assets/categories/chairs.jpg" alt="Стулья" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Стулья</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="пуфы" onclick="goRootCategory('pufy')">
+          <img src="./assets/categories/poufs.jpg" alt="Пуфы" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Пуфы</div>
+        </article>
+
+        <article class="catalog-group-card glass glass-strong" data-name="подушки" onclick="showToast('Подушки подключим следующим этапом')">
+          <img src="./assets/categories/pillows.jpg" alt="Подушки" class="catalog-group-image" />
+          <div class="catalog-group-overlay"></div>
+          <div class="catalog-group-title">Подушки</div>
+        </article>
+      </section>
+    </main>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item active">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script>
+    function goRootCategory(category) {
+      if (category === 'divany') {
+        window.location.href = './category.html?group=divany';
+        return;
+      }
+      if (category === 'krovati') {
+        window.location.href = './category.html?group=krovati';
+        return;
+      }
+      if (category === 'kresla') {
+        window.location.href = './category.html?group=kresla';
+        return;
+      }
+      if (category === 'pufy') {
+        window.location.href = './category.html?group=pufy';
+        return;
+      }
+    }
+  </script>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
+
+===== PRODUCT-LIST.JS EXISTS =====
+total 120
+drwxr-xr-x   6 vitalijguncak  staff    192 25 мар 16:38 .
+drwxr-xr-x@ 17 vitalijguncak  staff    544 25 мар 15:40 ..
+-rw-r--r--   1 vitalijguncak  staff    402 25 мар 12:38 api.js
+-rw-r--r--   1 vitalijguncak  staff  45367 25 мар 16:28 app.js
+-rw-r--r--   1 vitalijguncak  staff   1396 25 мар 16:41 product-list.js
+-rw-r--r--   1 vitalijguncak  staff    645 21 мар 13:19 telegram.js
+
+===== PRODUCT-LIST.JS CONTENT =====
+
+let allProducts = []
+let filteredProducts = []
+let currentSort = "price-asc"
+
+async function loadProducts() {
+  const res = await fetch("./data/products.json")
+  allProducts = await res.json()
+  filteredProducts = [...allProducts]
+  renderProducts()
+}
+
+function sortProducts(products, mode) {
+  const arr = [...products]
+
+  switch (mode) {
+
+    case "price-asc":
+      return arr.sort((a, b) => (a.price || 0) - (b.price || 0))
+
+    case "price-desc":
+      return arr.sort((a, b) => (b.price || 0) - (a.price || 0))
+
+    case "popular":
+      return arr.sort((a, b) =>
+        (b.reviews_count || 0) - (a.reviews_count || 0)
+      )
+
+    case "new":
+      return arr.sort((a, b) =>
+        (b.id || 0) - (a.id || 0)
+      )
+
+    default:
+      return arr
+  }
+}
+
+function renderProducts() {
+
+  const container = document.getElementById("products")
+
+  let sorted = sortProducts(filteredProducts, currentSort)
+
+  container.innerHTML = sorted.map(p => `
+    <div class="product-card">
+      <img src="${p.photos?.[0] || ''}" class="product-image"/>
+      <div class="product-title">${p.name}</div>
+      <div class="product-price">${p.price.toLocaleString()} ₽</div>
+    </div>
+  `).join("")
+}
+
+const sortSelect = document.getElementById("sortSelect")
+
+if (sortSelect) {
+  sortSelect.addEventListener("change", e => {
+    currentSort = e.target.value
+    renderProducts()
+  })
+}
+
+loadProducts()
+
+
+===== APP.JS CONTENT =====
+let PRODUCTS = [];
+let CURRENT_PRODUCT = null;
+let CURRENT_PRODUCT_SHORT = null;
+let CURRENT_PHOTO_INDEX = 0;
+
+const FABRIC_CATEGORY_NAMES = {
+  1: 'Velutto',
+  2: 'Evita',
+  3: 'Kiton',
+  4: 'Diagonal',
+  5: 'Marbel',
+  6: 'Premier',
+  7: 'Piano',
+  8: 'Belgium',
+  9: 'Pandora',
+  10: 'Limber',
+  11: 'Sunrise',
+  12: 'Phlox'
+};
+
+let PRODUCT_STATE = {
+  selectedCategory: 1,
+  selectedFabricFile: null,
+  selectedFabricLabel: null
+};
+
+function getQueryParam(name) {
+  return new URLSearchParams(window.location.search).get(name);
+}
+
+function formatPrice(value) {
+  return new Intl.NumberFormat('ru-RU').format(Math.round(Number(value || 0))) + ' ₽';
+}
+
+function showToast(message) {
+  const el = document.getElementById('app-toast');
+  if (!el) return;
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(window.__toastTimer);
+  window.__toastTimer = setTimeout(() => el.classList.remove('show'), 1800);
+}
+
+async function loadProducts() {
+  const res = await fetch('./data/products.json?v=' + Date.now());
+  PRODUCTS = await res.json();
+}
+
+function getCart() {
+  return JSON.parse(localStorage.getItem('cart') || '[]');
+}
+
+function setCart(cart) {
+  localStorage.setItem('cart', JSON.stringify(cart));
+  updateCartBadge();
+}
+
+function getFavorites() {
+  return JSON.parse(localStorage.getItem('favorites') || '[]');
+}
+
+function setFavorites(favorites) {
+  localStorage.setItem('favorites', JSON.stringify(favorites));
+  updateFavoritesBadge();
+}
+
+function isFavorite(slug) {
+  return getFavorites().includes(slug);
+}
+
+function toggleFavoriteBySlug(slug) {
+  const favorites = getFavorites();
+  const i = favorites.indexOf(slug);
+  if (i >= 0) favorites.splice(i, 1);
+  else favorites.push(slug);
+  setFavorites(favorites);
+
+  if (document.getElementById('product-page-root')) renderProductPage();
+  if (document.getElementById('catalog-list')) renderCatalogPage();
+  if (document.getElementById('favorites-list')) renderFavoritesPage();
+  if (document.getElementById('category-page-title')) renderCategoryPage();
+  if (document.getElementById('product-list-title')) renderProductListPage();
+}
+
+
+function updateFavoritesBadge() {
+  document.querySelectorAll('.nav-favorites-link').forEach(link => {
+    let badge = link.querySelector('.nav-favorites-badge');
+    const count = getFavorites().length;
+
+    if (!count) {
+      if (badge) badge.remove();
+      return;
+    }
+
+    if (!badge) {
+      badge = document.createElement('span');
+      badge.className = 'nav-favorites-badge';
+      link.appendChild(badge);
+    }
+    badge.textContent = count > 99 ? '99+' : String(count);
+  });
+}
+
+
+function updateCartBadge() {
+  document.querySelectorAll('.nav-cart-link').forEach(link => {
+    let badge = link.querySelector('.nav-cart-badge');
+    const count = getCart().reduce((sum, item) => sum + Number(item.qty || 1), 0);
+
+    if (!count) {
+      if (badge) badge.remove();
+      return;
+    }
+
+    if (!badge) {
+      badge = document.createElement('span');
+      badge.className = 'nav-cart-badge';
+      link.appendChild(badge);
+    }
+    badge.textContent = count > 99 ? '99+' : String(count);
+  });
+}
+
+function goBackSmart() {
+  if (document.referrer && document.referrer.includes(window.location.host)) history.back();
+  else location.href = './catalog.html';
+}
+
+function getCatalogCartQty(product) {
+  const cart = getCart();
+  return cart
+    .filter(x => x.slug === product.slug)
+    .reduce((sum, item) => sum + Number(item.qty || 1), 0);
+}
+
+function addSimpleToCart(productId) {
+  const product = PRODUCTS.find(p => String(p.id) === String(productId));
+  if (!product) return;
+
+  const cart = getCart();
+  const existing = cart.find(x => x.slug === product.slug && x.selected_fabric_category === 1 && !x.selected_fabric_name);
+
+  if (existing) existing.qty += 1;
+  else {
+    cart.push({
+      id: product.id,
+      slug: product.slug,
+      name: product.name,
+      category: product.category,
+      base_price: product.price,
+      selected_fabric_category: 1,
+      selected_fabric_category_name: FABRIC_CATEGORY_NAMES[1],
+      selected_fabric_name: null,
+      selected_fabric_file: null,
+      selected_fabric_path: null,
+      final_price: product.price,
+      qty: 1,
+      selected: true,
+      photo: product.photos?.[0] || null
+    });
+  }
+
+  setCart(cart);
+  showToast('Товар добавлен в корзину');
+  if (document.getElementById('catalog-list')) renderCatalogPage();
+  if (document.getElementById('favorites-list')) renderFavoritesPage();
+  if (document.getElementById('category-page-title')) renderCategoryPage();
+  if (document.getElementById('product-list-title')) renderProductListPage();
+}
+
+function increaseCatalogQty(productId) {
+  addSimpleToCart(productId);
+}
+
+function decreaseCatalogQty(productId) {
+  const product = PRODUCTS.find(p => String(p.id) === String(productId));
+  if (!product) return;
+
+  const cart = getCart();
+  const idx = cart.findIndex(x => x.slug === product.slug);
+
+  if (idx === -1) return;
+
+  cart[idx].qty = Number(cart[idx].qty || 1) - 1;
+  if (cart[idx].qty <= 0) cart.splice(idx, 1);
+
+  setCart(cart);
+  if (document.getElementById('catalog-list')) renderCatalogPage();
+  if (document.getElementById('favorites-list')) renderFavoritesPage();
+  if (document.getElementById('category-page-title')) renderCategoryPage();
+  if (document.getElementById('product-list-title')) renderProductListPage();
+}
+
+function increaseCartItem(index) {
+  const cart = getCart();
+  if (!cart[index]) return;
+  cart[index].qty = Number(cart[index].qty || 1) + 1;
+  setCart(cart);
+  renderCartPage();
+}
+
+function decreaseCartItem(index) {
+  const cart = getCart();
+  if (!cart[index]) return;
+  cart[index].qty = Number(cart[index].qty || 1) - 1;
+  if (cart[index].qty <= 0) cart.splice(index, 1);
+  setCart(cart);
+  renderCartPage();
+}
+
+function removeCartItem(index) {
+  const cart = getCart();
+  if (!cart[index]) return;
+  cart.splice(index, 1);
+  setCart(cart);
+  renderCartPage();
+}
+
+function toggleCartItemSelected(index) {
+  const cart = getCart();
+  if (!cart[index]) return;
+  cart[index].selected = !Boolean(cart[index].selected);
+  setCart(cart);
+  renderCartPage();
+}
+
+function selectAllCartItems() {
+  const cart = getCart().map(item => ({ ...item, selected: true }));
+  setCart(cart);
+  renderCartPage();
+}
+
+function unselectAllCartItems() {
+  const cart = getCart().map(item => ({ ...item, selected: false }));
+  setCart(cart);
+  renderCartPage();
+}
+
+function removeSelectedCartItems() {
+  const cart = getCart().filter(item => item.selected === false);
+  setCart(cart);
+  renderCartPage();
+  showToast('Выбранные товары удалены');
+}
+
+function getSelectedCartItems() {
+  return getCart().filter(item => item.selected !== false);
+}
+
+
+function renderFavoritesPage() {
+  const list = document.getElementById('favorites-list');
+  if (!list) return;
+
+  const favorites = getFavorites();
+  const items = PRODUCTS.filter(item => favorites.includes(item.slug));
+
+  if (!items.length) {
+    list.innerHTML = `
+
+===== PRODUCTS CONTAINER =====
+
+===== SORT SELECT =====
+2:<select id="sortSelect" class="sort-select">
+
+===== SCRIPT LINKS =====
+113:  <script>
+134:  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+135:  <script src="./js/telegram.js"></script>
+136:  <script src="./js/api.js"></script>
+137:  <script src="./js/app.js"></script>
+
+===== PRODUCTS.JSON COUNT =====
+Всего товаров: 30
+Категории: ['divany-2', 'divany-3', 'kresla', 'krovati', 'pufy', 'uglovye']

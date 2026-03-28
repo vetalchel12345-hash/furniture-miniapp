@@ -1,0 +1,2163 @@
+[
+  {
+    "id": 102,
+    "slug": "divany-2-balans",
+    "name": "Диван двухместный Баланс",
+    "category": "divany-2",
+    "price": 61500,
+    "old_price": 79950,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "164 × 95 × 90",
+    "description": "— двухместный диван шириной 164 и глубиной 95. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ/Независимый пружинный блок; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-balans/gallery/1.jpg",
+      "./assets/products/divany-2-balans/gallery/2.jpg",
+      "./assets/products/divany-2-balans/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 164.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 103,
+    "slug": "divany-2-blizost",
+    "name": "Диван двухместный Близость",
+    "category": "divany-2",
+    "price": 47600,
+    "old_price": 61880,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "144 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 144 см и глубиной 90 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-blizost/gallery/1.jpg",
+      "./assets/products/divany-2-blizost/gallery/2.jpg",
+      "./assets/products/divany-2-blizost/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 144.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 125,
+    "slug": "divany-2-volna",
+    "name": "Диван двухместный Волна",
+    "category": "divany-2",
+    "price": 19900,
+    "old_price": 25870,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "2300 см × 100см × 90 см",
+    "description": "— двухместный диван шириной 2300 см и глубиной 100см. Модель оснащена механизмом еврокнижка, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холофайбер. Материалы конструкции: каркас — ДСП/ЛДСП/Фанер/Брус; опоры — Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-volna/gallery/1.jpg",
+      "./assets/products/divany-2-volna/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Еврокнижка",
+      "width": 2300.0,
+      "depth": 100.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 107,
+    "slug": "divany-2-garmoniya",
+    "name": "Диван двухместный Гармония",
+    "category": "divany-2",
+    "price": 47900,
+    "old_price": 62270,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 см × 90 см × 45 см",
+    "description": "— двухместный диван шириной 140 см и глубиной 90 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-garmoniya/gallery/1.jpg",
+      "./assets/products/divany-2-garmoniya/gallery/2.jpg",
+      "./assets/products/divany-2-garmoniya/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 140.0,
+      "depth": 90.0,
+      "height": 45.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 101,
+    "slug": "duet-2",
+    "name": "Диван двухместный Дуэт",
+    "category": "divany-2",
+    "price": 76850,
+    "old_price": 99905,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "220 × 95 × 90 см",
+    "description": "Компактный двухместный диван с механизмом пантограф и комфортной посадкой.",
+    "photos": [
+      "./assets/products/duet-2/gallery/1.jpg",
+      "./assets/products/duet-2/gallery/2.jpg",
+      "./assets/products/duet-2/gallery/3.jpg",
+      "./assets/products/duet-2/gallery/4.jpg"
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "divany-2-kapsula",
+    "name": "Диван двухместный Капсула",
+    "category": "divany-2",
+    "price": 69900,
+    "old_price": 90870,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "240 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 240 см и глубиной 90 см. Модель оснащена механизмом пантограф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-kapsula/gallery/1.jpg",
+      "./assets/products/divany-2-kapsula/gallery/2.jpg",
+      "./assets/products/divany-2-kapsula/gallery/3.jpg",
+      "./assets/products/divany-2-kapsula/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Пантограф",
+      "width": 240.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 109,
+    "slug": "divany-2-komfort",
+    "name": "Диван двухместный Комфорт",
+    "category": "divany-2",
+    "price": 46900,
+    "old_price": 60970,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "144 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 144 см и глубиной 90 см. Модель оснащена механизмом смурф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-komfort/gallery/1.jpg",
+      "./assets/products/divany-2-komfort/gallery/2.jpg",
+      "./assets/products/divany-2-komfort/gallery/3.jpg",
+      "./assets/products/divany-2-komfort/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Смурф",
+      "width": 144.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 110,
+    "slug": "divany-2-kontakt",
+    "name": "Диван двухместный Контакт",
+    "category": "divany-2",
+    "price": 75300,
+    "old_price": 97890,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "240 см × 110 см × 90 см",
+    "description": "— двухместный диван шириной 240 см и глубиной 110 см. Модель оснащена механизмом пантограф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ/Независимый пружинный блок; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-kontakt/gallery/1.jpg",
+      "./assets/products/divany-2-kontakt/gallery/2.jpg",
+      "./assets/products/divany-2-kontakt/gallery/3.jpg",
+      "./assets/products/divany-2-kontakt/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Пантограф",
+      "width": 240.0,
+      "depth": 110.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "70000-100000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 111,
+    "slug": "divany-2-laundzh",
+    "name": "Диван двухместный Лаунж",
+    "category": "divany-2",
+    "price": 49900,
+    "old_price": 64870,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "148 см × 95 см × 90 см",
+    "description": "— двухместный диван шириной 148 см и глубиной 95 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-laundzh/gallery/1.jpg",
+      "./assets/products/divany-2-laundzh/gallery/2.jpg",
+      "./assets/products/divany-2-laundzh/gallery/3.jpg",
+      "./assets/products/divany-2-laundzh/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 148.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 112,
+    "slug": "divany-2-liniya",
+    "name": "Диван двухместный Линия",
+    "category": "divany-2",
+    "price": 48900,
+    "old_price": 63570,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 140 см и глубиной 90 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/пластик/металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-liniya/gallery/1.jpg",
+      "./assets/products/divany-2-liniya/gallery/2.jpg",
+      "./assets/products/divany-2-liniya/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 140.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 113,
+    "slug": "divany-2-lirika",
+    "name": "Диван двухместный Лирика",
+    "category": "divany-2",
+    "price": 45000,
+    "old_price": 58500,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 см × 95 см × 90 см",
+    "description": "— двухместный диван шириной 140 см и глубиной 95 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/Металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-lirika/gallery/1.jpg",
+      "./assets/products/divany-2-lirika/gallery/2.jpg",
+      "./assets/products/divany-2-lirika/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 140.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 104,
+    "slug": "divany-2-delikat",
+    "name": "Диван двухместный Модульный Диван Плюс 160/120 со спинкой",
+    "category": "divany-2",
+    "price": 96000,
+    "old_price": 124800,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160/120 см × 120 см × 72 см",
+    "description": "— двухместный диван шириной 160/120 см и глубиной 120 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: Высокоэластичный ППУ. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-delikat/gallery/1.jpg",
+      "./assets/products/divany-2-delikat/gallery/2.jpg",
+      "./assets/products/divany-2-delikat/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 160.0,
+      "depth": 120.0,
+      "height": 72.0,
+      "has_storage": false,
+      "price_group": "70000-100000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 114,
+    "slug": "divany-2-moment",
+    "name": "Диван двухместный Момент",
+    "category": "divany-2",
+    "price": 85900,
+    "old_price": 111670,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "225 см × 95 см × 90 см",
+    "description": "— двухместный диван шириной 225 см и глубиной 95 см. Модель оснащена механизмом пантограф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ/Независимый пружинный блок; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-moment/gallery/1.jpg",
+      "./assets/products/divany-2-moment/gallery/2.jpg",
+      "./assets/products/divany-2-moment/gallery/3.jpg",
+      "./assets/products/divany-2-moment/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Пантограф",
+      "width": 225.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "70000-100000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 115,
+    "slug": "divany-2-myagkost",
+    "name": "Диван двухместный Мягкость",
+    "category": "divany-2",
+    "price": 76000,
+    "old_price": 98800,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "240 см × 95 см × 90 см",
+    "description": "— двухместный диван шириной 240 см и глубиной 95 см. Модель оснащена механизмом пантограф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ/Независимый пружинный блок; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-myagkost/gallery/1.jpg",
+      "./assets/products/divany-2-myagkost/gallery/2.jpg",
+      "./assets/products/divany-2-myagkost/gallery/3.jpg",
+      "./assets/products/divany-2-myagkost/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Пантограф",
+      "width": 240.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "70000-100000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 116,
+    "slug": "divany-2-nyuans",
+    "name": "Диван двухместный Нюанс",
+    "category": "divany-2",
+    "price": 53300,
+    "old_price": 69290,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 180 см и глубиной 90 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/Металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-nyuans/gallery/1.jpg",
+      "./assets/products/divany-2-nyuans/gallery/2.jpg",
+      "./assets/products/divany-2-nyuans/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 180.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 117,
+    "slug": "divany-2-oazis",
+    "name": "Диван двухместный Оазис",
+    "category": "divany-2",
+    "price": 48900,
+    "old_price": 63570,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 см × 95 см × 90 см",
+    "description": "— двухместный диван шириной 140 см и глубиной 95 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/пластик/металл. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-oazis/gallery/1.jpg",
+      "./assets/products/divany-2-oazis/gallery/2.jpg",
+      "./assets/products/divany-2-oazis/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 140.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 118,
+    "slug": "divany-2-para",
+    "name": "Диван двухместный Пара",
+    "category": "divany-2",
+    "price": 55000,
+    "old_price": 71500,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 140 см и глубиной 90 см. Модель оснащена механизмом смурф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-para/gallery/1.jpg",
+      "./assets/products/divany-2-para/gallery/2.jpg",
+      "./assets/products/divany-2-para/gallery/3.jpg",
+      "./assets/products/divany-2-para/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Смурф",
+      "width": 140.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 119,
+    "slug": "divany-2-pauza",
+    "name": "Диван двухместный Пауза",
+    "category": "divany-2",
+    "price": 59900,
+    "old_price": 77870,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "170 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 170 см и глубиной 90 см. Модель оснащена механизмом смурф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-pauza/gallery/1.jpg",
+      "./assets/products/divany-2-pauza/gallery/2.jpg",
+      "./assets/products/divany-2-pauza/gallery/3.jpg",
+      "./assets/products/divany-2-pauza/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Смурф",
+      "width": 170.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 120,
+    "slug": "divany-2-plyus",
+    "name": "Диван двухместный Плюс (Модуль дивана 120/120см)",
+    "category": "divany-2",
+    "price": 79900,
+    "old_price": 103870,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 см × 120 см × 44 см",
+    "description": "— двухместный диван шириной 120 см и глубиной 120 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: Высокоэластичный ППУ. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-plyus/gallery/1.jpg",
+      "./assets/products/divany-2-plyus/gallery/2.jpg",
+      "./assets/products/divany-2-plyus/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 120.0,
+      "depth": 120.0,
+      "height": 44.0,
+      "has_storage": false,
+      "price_group": "70000-100000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 121,
+    "slug": "divany-2-sonata",
+    "name": "Диван двухместный Соната",
+    "category": "divany-2",
+    "price": 55300,
+    "old_price": 71890,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "148 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 148 см и глубиной 90 см. Модель оснащена механизмом смурф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-sonata/gallery/1.jpg",
+      "./assets/products/divany-2-sonata/gallery/2.jpg",
+      "./assets/products/divany-2-sonata/gallery/3.jpg",
+      "./assets/products/divany-2-sonata/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Смурф",
+      "width": 148.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 122,
+    "slug": "divany-2-spektr",
+    "name": "Диван двухместный Спектр",
+    "category": "divany-2",
+    "price": 55000,
+    "old_price": 71500,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 140 см и глубиной 90 см. Модель оснащена механизмом смурф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-spektr/gallery/1.jpg",
+      "./assets/products/divany-2-spektr/gallery/2.jpg",
+      "./assets/products/divany-2-spektr/gallery/3.jpg",
+      "./assets/products/divany-2-spektr/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Смурф",
+      "width": 140.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 123,
+    "slug": "divany-2-tetatet",
+    "name": "Диван двухместный Тет-а-тет",
+    "category": "divany-2",
+    "price": 32900,
+    "old_price": 42770,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 см × 95 см × 90 см",
+    "description": "— двухместный диван шириной 160 см и глубиной 95 см. Компактная модель без механизма отлично подходит для кухни, гостевой зоны, небольших комнат и помещений, где важна аккуратная посадка без лишнего объёма. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-tetatet/gallery/1.jpg",
+      "./assets/products/divany-2-tetatet/gallery/2.jpg",
+      "./assets/products/divany-2-tetatet/gallery/3.jpg",
+      "./assets/products/divany-2-tetatet/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "БЕЗ МЕХАНИЗМА",
+      "width": 160.0,
+      "depth": 95.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "compact",
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 124,
+    "slug": "divany-2-uyut",
+    "name": "Диван двухместный Уют",
+    "category": "divany-2",
+    "price": 19900,
+    "old_price": 25870,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "200 см × 1000 см × 90 см",
+    "description": "— двухместный диван шириной 200 см и глубиной 1000 см. Модель оснащена механизмом еврокнижка, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ/НБП; спинка: Холофайбер. Материалы конструкции: каркас — Брус/Фанера/ДСП/ЛДСП; опоры — Пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-uyut/gallery/1.jpg",
+      "./assets/products/divany-2-uyut/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Еврокнижка",
+      "width": 200.0,
+      "depth": 1000.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 106,
+    "slug": "divany-2-fokus",
+    "name": "Диван двухместный Фокус",
+    "category": "divany-2",
+    "price": 52000,
+    "old_price": 67600,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "150 см × 90 см × 90 см",
+    "description": "— двухместный диван шириной 150 см и глубиной 90 см. Модель оснащена механизмом смурф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-fokus/gallery/1.jpg",
+      "./assets/products/divany-2-fokus/gallery/2.jpg",
+      "./assets/products/divany-2-fokus/gallery/3.jpg",
+      "./assets/products/divany-2-fokus/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Смурф",
+      "width": 150.0,
+      "depth": 90.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 105,
+    "slug": "divany-2-ekho",
+    "name": "Диван двухместный Эхо",
+    "category": "divany-2",
+    "price": 74600,
+    "old_price": 96980,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "230 см × 110 см × 90 см",
+    "description": "— двухместный диван шириной 230 см и глубиной 110 см. Модель оснащена механизмом пантограф, поэтому подходит как для ежедневного использования, так и для гостевого размещения. По наполнению: сиденье: ППУ/Независимый пружинный блок; спинка: Холлофайбер. Материалы конструкции: каркас — Сосновый брус/березовая фанера; опоры — Массив бука/пластик. Подходит для квартиры, дома, студии, гостевой комнаты и современных интерьерных пространств.",
+    "photos": [
+      "./assets/products/divany-2-ekho/gallery/1.jpg",
+      "./assets/products/divany-2-ekho/gallery/2.jpg",
+      "./assets/products/divany-2-ekho/gallery/3.jpg",
+      "./assets/products/divany-2-ekho/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": true,
+      "mechanism": "Пантограф",
+      "width": 230.0,
+      "depth": 110.0,
+      "height": 90.0,
+      "has_storage": false,
+      "price_group": "70000-100000",
+      "style_tags": [
+        "guest",
+        "modern"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 201,
+    "slug": "pending-divany-3",
+    "name": "Диван трёхместный — скоро добавим",
+    "category": "divany-3",
+    "price": 0,
+    "old_price": 0,
+    "badge": "СКОРО",
+    "short_specs": "Товар готовится",
+    "description": "Карточка товара будет добавлена после загрузки фото и характеристик.",
+    "photos": [
+      "./assets/placeholders/coming-soon.jpg"
+    ]
+  },
+  {
+    "id": 401,
+    "slug": "pending-kresla",
+    "name": "Кресло — скоро добавим",
+    "category": "kresla",
+    "price": 0,
+    "old_price": 0,
+    "badge": "СКОРО",
+    "short_specs": "Товар готовится",
+    "description": "Карточка товара будет добавлена после загрузки фото и характеристик.",
+    "photos": [
+      "./assets/placeholders/coming-soon.jpg"
+    ]
+  },
+  {
+    "id": 520,
+    "slug": "beds-infiniti",
+    "name": "Кровать Infiniti",
+    "category": "krovati",
+    "price": 65800,
+    "old_price": 85540,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Infiniti — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-infiniti/gallery/1.jpg",
+      "./assets/products/beds-infiniti/gallery/2.jpg",
+      "./assets/products/beds-infiniti/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 537,
+    "slug": "beds-rivera",
+    "name": "Кровать Rivera",
+    "category": "krovati",
+    "price": 38100,
+    "old_price": 49530,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Rivera — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-rivera/gallery/1.jpg",
+      "./assets/products/beds-rivera/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 502,
+    "slug": "beds-artel",
+    "name": "Кровать Артель",
+    "category": "krovati",
+    "price": 50900,
+    "old_price": 66170,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Артель — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-artel/gallery/1.jpg",
+      "./assets/products/beds-artel/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 503,
+    "slug": "beds-astra",
+    "name": "Кровать Астра",
+    "category": "krovati",
+    "price": 48600,
+    "old_price": 63180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Астра — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-astra/gallery/1.jpg",
+      "./assets/products/beds-astra/gallery/2.jpg",
+      "./assets/products/beds-astra/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 504,
+    "slug": "beds-atmosfera",
+    "name": "Кровать Атмосфера",
+    "category": "krovati",
+    "price": 65800,
+    "old_price": 85540,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Атмосфера — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-atmosfera/gallery/1.jpg",
+      "./assets/products/beds-atmosfera/gallery/2.jpg",
+      "./assets/products/beds-atmosfera/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 505,
+    "slug": "beds-aura",
+    "name": "Кровать Аура",
+    "category": "krovati",
+    "price": 38100,
+    "old_price": 49530,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Аура — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-aura/gallery/1.jpg",
+      "./assets/products/beds-aura/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 506,
+    "slug": "beds-balans",
+    "name": "Кровать Баланс",
+    "category": "krovati",
+    "price": 55400,
+    "old_price": 72020,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • с ортопедическим основанием • без бельевого короба",
+    "description": "Баланс — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-balans/gallery/1.jpg",
+      "./assets/products/beds-balans/gallery/2.jpg",
+      "./assets/products/beds-balans/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 543,
+    "slug": "beds-vega",
+    "name": "Кровать Вега",
+    "category": "krovati",
+    "price": 48600,
+    "old_price": 63180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Вега — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-vega/gallery/1.jpg",
+      "./assets/products/beds-vega/gallery/2.jpg",
+      "./assets/products/beds-vega/gallery/3.jpg",
+      "./assets/products/beds-vega/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 544,
+    "slug": "beds-vektor",
+    "name": "Кровать Вектор",
+    "category": "krovati",
+    "price": 65800,
+    "old_price": 85540,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Вектор — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-vektor/gallery/1.jpg",
+      "./assets/products/beds-vektor/gallery/2.jpg",
+      "./assets/products/beds-vektor/gallery/3.jpg",
+      "./assets/products/beds-vektor/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 545,
+    "slug": "beds-verona",
+    "name": "Кровать Верона",
+    "category": "krovati",
+    "price": 38100,
+    "old_price": 49530,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Верона — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-verona/gallery/1.jpg",
+      "./assets/products/beds-verona/gallery/2.jpg",
+      "./assets/products/beds-verona/gallery/3.jpg",
+      "./assets/products/beds-verona/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 546,
+    "slug": "beds-vizion",
+    "name": "Кровать Визион",
+    "category": "krovati",
+    "price": 55400,
+    "old_price": 72020,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • с ортопедическим основанием • без бельевого короба",
+    "description": "Визион — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-vizion/gallery/1.jpg",
+      "./assets/products/beds-vizion/gallery/2.jpg",
+      "./assets/products/beds-vizion/gallery/3.jpg",
+      "./assets/products/beds-vizion/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 516,
+    "slug": "beds-garmonika",
+    "name": "Кровать Гармоника",
+    "category": "krovati",
+    "price": 53100,
+    "old_price": 69030,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Гармоника — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-garmonika/gallery/1.jpg",
+      "./assets/products/beds-garmonika/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 518,
+    "slug": "beds-gravitatsiya",
+    "name": "Кровать Гравитация",
+    "category": "krovati",
+    "price": 50900,
+    "old_price": 66170,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Гравитация — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-gravitatsiya/gallery/1.jpg",
+      "./assets/products/beds-gravitatsiya/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 517,
+    "slug": "beds-gratsiya",
+    "name": "Кровать Грация",
+    "category": "krovati",
+    "price": 61300,
+    "old_price": 79690,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Грация — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-gratsiya/gallery/1.jpg",
+      "./assets/products/beds-gratsiya/gallery/2.jpg",
+      "./assets/products/beds-gratsiya/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 507,
+    "slug": "beds-dinastiya",
+    "name": "Кровать Династия",
+    "category": "krovati",
+    "price": 28600,
+    "old_price": 37180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "90 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Династия — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-dinastiya/gallery/1.jpg",
+      "./assets/products/beds-dinastiya/gallery/2.jpg",
+      "./assets/products/beds-dinastiya/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 508,
+    "slug": "beds-dominik",
+    "name": "Кровать Доминик",
+    "category": "krovati",
+    "price": 53100,
+    "old_price": 69030,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Доминик — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-dominik/gallery/1.jpg",
+      "./assets/products/beds-dominik/gallery/2.jpg",
+      "./assets/products/beds-dominik/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 519,
+    "slug": "beds-imperiya",
+    "name": "Кровать Империя",
+    "category": "krovati",
+    "price": 48600,
+    "old_price": 63180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Империя — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-imperiya/gallery/1.jpg",
+      "./assets/products/beds-imperiya/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 521,
+    "slug": "beds-kaskad",
+    "name": "Кровать Каскад",
+    "category": "krovati",
+    "price": 38100,
+    "old_price": 49530,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Каскад — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-kaskad/gallery/1.jpg",
+      "./assets/products/beds-kaskad/gallery/2.jpg",
+      "./assets/products/beds-kaskad/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 522,
+    "slug": "beds-klassika",
+    "name": "Кровать Классика",
+    "category": "krovati",
+    "price": 55400,
+    "old_price": 72020,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • с ортопедическим основанием • без бельевого короба",
+    "description": "Классика — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-klassika/gallery/1.jpg",
+      "./assets/products/beds-klassika/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 523,
+    "slug": "beds-kontur",
+    "name": "Кровать Контур",
+    "category": "krovati",
+    "price": 28600,
+    "old_price": 37180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "90 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Контур — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-kontur/gallery/1.jpg",
+      "./assets/products/beds-kontur/gallery/2.jpg",
+      "./assets/products/beds-kontur/gallery/3.jpg",
+      "./assets/products/beds-kontur/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 524,
+    "slug": "beds-kristall",
+    "name": "Кровать Кристалл",
+    "category": "krovati",
+    "price": 53100,
+    "old_price": 69030,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Кристалл — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-kristall/gallery/1.jpg",
+      "./assets/products/beds-kristall/gallery/2.jpg",
+      "./assets/products/beds-kristall/gallery/3.jpg",
+      "./assets/products/beds-kristall/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 525,
+    "slug": "beds-lakonika",
+    "name": "Кровать Лаконика",
+    "category": "krovati",
+    "price": 61300,
+    "old_price": 79690,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Лаконика — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-lakonika/gallery/1.jpg",
+      "./assets/products/beds-lakonika/gallery/2.jpg",
+      "./assets/products/beds-lakonika/gallery/3.jpg",
+      "./assets/products/beds-lakonika/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 526,
+    "slug": "beds-legenda",
+    "name": "Кровать Легенда",
+    "category": "krovati",
+    "price": 50900,
+    "old_price": 66170,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Легенда — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-legenda/gallery/1.jpg",
+      "./assets/products/beds-legenda/gallery/2.jpg",
+      "./assets/products/beds-legenda/gallery/3.jpg",
+      "./assets/products/beds-legenda/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 527,
+    "slug": "beds-magnum",
+    "name": "Кровать Магнум",
+    "category": "krovati",
+    "price": 48600,
+    "old_price": 63180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Магнум — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-magnum/gallery/1.jpg",
+      "./assets/products/beds-magnum/gallery/2.jpg",
+      "./assets/products/beds-magnum/gallery/3.jpg",
+      "./assets/products/beds-magnum/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 528,
+    "slug": "beds-meridian",
+    "name": "Кровать Меридиан",
+    "category": "krovati",
+    "price": 65800,
+    "old_price": 85540,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Меридиан — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-meridian/gallery/1.jpg",
+      "./assets/products/beds-meridian/gallery/2.jpg",
+      "./assets/products/beds-meridian/gallery/3.jpg",
+      "./assets/products/beds-meridian/gallery/4.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 529,
+    "slug": "beds-nevada",
+    "name": "Кровать Невада",
+    "category": "krovati",
+    "price": 38100,
+    "old_price": 49530,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Невада — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-nevada/gallery/1.jpg",
+      "./assets/products/beds-nevada/gallery/2.jpg",
+      "./assets/products/beds-nevada/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 530,
+    "slug": "beds-nord",
+    "name": "Кровать Норд",
+    "category": "krovati",
+    "price": 55400,
+    "old_price": 72020,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • с ортопедическим основанием • без бельевого короба",
+    "description": "Норд — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-nord/gallery/1.jpg",
+      "./assets/products/beds-nord/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 531,
+    "slug": "beds-oniks",
+    "name": "Кровать Оникс",
+    "category": "krovati",
+    "price": 28600,
+    "old_price": 37180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "90 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Оникс — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-oniks/gallery/1.jpg",
+      "./assets/products/beds-oniks/gallery/2.jpg",
+      "./assets/products/beds-oniks/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 532,
+    "slug": "beds-orion",
+    "name": "Кровать Орион",
+    "category": "krovati",
+    "price": 53100,
+    "old_price": 69030,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Орион — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-orion/gallery/1.jpg",
+      "./assets/products/beds-orion/gallery/2.jpg",
+      "./assets/products/beds-orion/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 533,
+    "slug": "beds-pallada",
+    "name": "Кровать Паллада",
+    "category": "krovati",
+    "price": 61300,
+    "old_price": 79690,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Паллада — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-pallada/gallery/1.jpg",
+      "./assets/products/beds-pallada/gallery/2.jpg",
+      "./assets/products/beds-pallada/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 534,
+    "slug": "beds-premium",
+    "name": "Кровать Премиум",
+    "category": "krovati",
+    "price": 50900,
+    "old_price": 66170,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Премиум — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-premium/gallery/1.jpg",
+      "./assets/products/beds-premium/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 535,
+    "slug": "beds-prestizh",
+    "name": "Кровать Престиж",
+    "category": "krovati",
+    "price": 48600,
+    "old_price": 63180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Престиж — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-prestizh/gallery/1.jpg",
+      "./assets/products/beds-prestizh/gallery/2.jpg",
+      "./assets/products/beds-prestizh/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 536,
+    "slug": "beds-respekt",
+    "name": "Кровать Респект",
+    "category": "krovati",
+    "price": 65800,
+    "old_price": 85540,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Респект — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-respekt/gallery/1.jpg",
+      "./assets/products/beds-respekt/gallery/2.jpg",
+      "./assets/products/beds-respekt/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 538,
+    "slug": "beds-selena",
+    "name": "Кровать Селена",
+    "category": "krovati",
+    "price": 55400,
+    "old_price": 72020,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • с ортопедическим основанием • без бельевого короба",
+    "description": "Селена — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-selena/gallery/1.jpg",
+      "./assets/products/beds-selena/gallery/2.jpg",
+      "./assets/products/beds-selena/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 540,
+    "slug": "beds-silva",
+    "name": "Кровать Сильва",
+    "category": "krovati",
+    "price": 53100,
+    "old_price": 69030,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Сильва — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-silva/gallery/1.jpg",
+      "./assets/products/beds-silva/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 541,
+    "slug": "beds-simvol",
+    "name": "Кровать Символ",
+    "category": "krovati",
+    "price": 61300,
+    "old_price": 79690,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Символ — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-simvol/gallery/1.jpg",
+      "./assets/products/beds-simvol/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 539,
+    "slug": "beds-sfera",
+    "name": "Кровать Сфера",
+    "category": "krovati",
+    "price": 28600,
+    "old_price": 37180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "90 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Сфера — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-sfera/gallery/1.jpg",
+      "./assets/products/beds-sfera/gallery/2.jpg",
+      "./assets/products/beds-sfera/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 542,
+    "slug": "beds-triumf",
+    "name": "Кровать Триумф",
+    "category": "krovati",
+    "price": 50900,
+    "old_price": 66170,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Триумф — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-triumf/gallery/1.jpg",
+      "./assets/products/beds-triumf/gallery/2.jpg",
+      "./assets/products/beds-triumf/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 514,
+    "slug": "beds-florentsiya",
+    "name": "Кровать Флоренция",
+    "category": "krovati",
+    "price": 55400,
+    "old_price": 72020,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • с ортопедическим основанием • без бельевого короба",
+    "description": "Флоренция — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-florentsiya/gallery/1.jpg",
+      "./assets/products/beds-florentsiya/gallery/2.jpg",
+      "./assets/products/beds-florentsiya/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 515,
+    "slug": "beds-forte",
+    "name": "Кровать Форте",
+    "category": "krovati",
+    "price": 28600,
+    "old_price": 37180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "90 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Форте — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-forte/gallery/1.jpg",
+      "./assets/products/beds-forte/gallery/2.jpg",
+      "./assets/products/beds-forte/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-30000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 509,
+    "slug": "beds-elegiya",
+    "name": "Кровать Элегия",
+    "category": "krovati",
+    "price": 61300,
+    "old_price": 79690,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Элегия — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-elegiya/gallery/1.jpg",
+      "./assets/products/beds-elegiya/gallery/2.jpg",
+      "./assets/products/beds-elegiya/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 510,
+    "slug": "beds-enigma",
+    "name": "Кровать Энигма",
+    "category": "krovati",
+    "price": 50900,
+    "old_price": 66170,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "160 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Энигма — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-enigma/gallery/1.jpg",
+      "./assets/products/beds-enigma/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 511,
+    "slug": "beds-era",
+    "name": "Кровать Эра",
+    "category": "krovati",
+    "price": 48600,
+    "old_price": 63180,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "140 × 200 • без ортопедического основания • с бельевым коробом",
+    "description": "Эра — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-era/gallery/1.jpg",
+      "./assets/products/beds-era/gallery/2.jpg",
+      "./assets/products/beds-era/gallery/3.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 512,
+    "slug": "beds-estet",
+    "name": "Кровать Эстет",
+    "category": "krovati",
+    "price": 65800,
+    "old_price": 85540,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "180 × 200 • с ортопедическим основанием • с бельевым коробом",
+    "description": "Эстет — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-estet/gallery/1.jpg",
+      "./assets/products/beds-estet/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": true,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 513,
+    "slug": "beds-etaliya",
+    "name": "Кровать Эталия",
+    "category": "krovati",
+    "price": 38100,
+    "old_price": 49530,
+    "badge": "СОБСТВЕННОЕ ПРОИЗВОДСТВО",
+    "short_specs": "120 × 200 • без ортопедического основания • без бельевого короба",
+    "description": "Эталия — современная мягкая кровать с выразительным изголовьем и спокойной премиальной подачей. Подходит для квартиры, дома, дизайнерского интерьера и гостиничных решений. Модель доступна в нескольких размерах спального места, с выбором ортопедического основания, бельевого короба и категории ткани.",
+    "photos": [
+      "./assets/products/beds-etaliya/gallery/1.jpg",
+      "./assets/products/beds-etaliya/gallery/2.jpg"
+    ],
+    "filters": {
+      "is_folding": false,
+      "mechanism": "",
+      "width": null,
+      "depth": null,
+      "height": 110,
+      "has_storage": false,
+      "price_group": "до-70000",
+      "style_tags": [
+        "modern",
+        "soft-bed"
+      ],
+      "fabric_categories_count": 12
+    }
+  },
+  {
+    "id": 501,
+    "slug": "pending-pufy",
+    "name": "Пуф — скоро добавим",
+    "category": "pufy",
+    "price": 0,
+    "old_price": 0,
+    "badge": "СКОРО",
+    "short_specs": "Товар готовится",
+    "description": "Карточка товара будет добавлена после загрузки фото и характеристик.",
+    "photos": [
+      "./assets/placeholders/coming-soon.jpg"
+    ]
+  },
+  {
+    "id": 301,
+    "slug": "pending-uglovye",
+    "name": "Диван угловой — скоро добавим",
+    "category": "uglovye",
+    "price": 0,
+    "old_price": 0,
+    "badge": "СКОРО",
+    "short_specs": "Товар готовится",
+    "description": "Карточка товара будет добавлена после загрузки фото и характеристик.",
+    "photos": [
+      "./assets/placeholders/coming-soon.jpg"
+    ]
+  }
+]

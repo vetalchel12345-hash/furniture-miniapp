@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Карточка товара</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main id="product-page-root" class="page product-page-premium"></main>
+
+    <div class="product-sticky-action-bar glass glass-strong">
+      <button id="sticky-cart-btn" class="primary-btn">🛒 Добавить в корзину</button>
+      <button id="sticky-fabric-btn" class="ghost-btn">🧵 Изменить ткань</button>
+      <button id="sticky-manager-btn" class="ghost-btn">💬 Менеджер</button>
+      <button id="sticky-fav-btn" class="icon-btn">♡</button>
+    </div>
+
+    <div id="fabric-category-sheet" class="sheet-backdrop" style="display:none;">
+      <div class="sheet-panel">
+        <div class="sheet-head">
+          <h3>Категории ткани</h3>
+          <button class="icon-btn" onclick="closeFabricSheets()">✕</button>
+        </div>
+        <div id="fabric-category-list" class="sheet-list"></div>
+      </div>
+    </div>
+
+    <div id="fabric-color-sheet" class="sheet-backdrop" style="display:none;">
+      <div class="sheet-panel">
+        <div class="sheet-head">
+          <h3 id="fabric-color-title">Выберите ткань</h3>
+          <button class="icon-btn" onclick="closeFabricSheets()">✕</button>
+        </div>
+        <div id="fabric-color-grid" class="fabric-color-grid"></div>
+      </div>
+    </div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+
+    <div id="product-lightbox" class="product-lightbox" style="display:none;">
+      <div class="product-lightbox-backdrop" onclick="closeProductLightbox()"></div>
+
+      <div class="product-lightbox-inner">
+        <button class="product-lightbox-close" onclick="closeProductLightbox()">✕</button>
+        <div id="product-lightbox-counter" class="product-lightbox-counter">1 / 1</div>
+        <button class="product-lightbox-arrow left" onclick="prevProductLightbox()">‹</button>
+
+        <div class="product-lightbox-center">
+          <div id="product-lightbox-swipe" class="product-lightbox-image-wrap">
+            <img id="product-lightbox-image" src="" alt="Фото товара">
+          </div>
+          <div id="product-lightbox-thumbs" class="product-lightbox-thumbs"></div>
+        </div>
+
+        <button class="product-lightbox-arrow right" onclick="nextProductLightbox()">›</button>
+      </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Категория</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page category-root-page">
+      <section class="catalog-hero glass glass-strong">
+        <div class="category-top-row">
+          <button class="icon-btn back-btn" onclick="history.back()">←</button>
+          <div>
+            <div class="eyebrow">Категория</div>
+            <h1 id="category-page-title" class="catalog-hero-title">Раздел</h1>
+          </div>
+          <button class="icon-btn" onclick="showToast('Фильтры подключим следующим этапом')">⚙</button>
+        </div>
+
+        <div id="category-quick-chips" class="category-quick-chips"></div>
+      </section>
+
+      <section id="category-subgroups" class="catalog-groups-grid"></section>
+
+      <section id="category-products" class="products"></section>
+    </main>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item active">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Нестандартный заказ</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page custom-page-premium">
+      <section class="cart-hero glass glass-strong">
+        <div class="cart-top-row">
+          <button class="icon-btn back-btn" onclick="history.back()">←</button>
+          <div>
+            <div class="eyebrow">Нестандартный заказ</div>
+            <h1 class="cart-title">Опишите ваш проект</h1>
+          </div>
+        </div>
+        <p class="cart-subtitle">Заполните форму и отправьте заявку напрямую менеджеру.</p>
+      </section>
+
+      <section class="custom-form-section glass glass-strong">
+        <div class="eyebrow">Тип заказа</div>
+        <div class="custom-type-grid">
+          <label class="custom-radio-card">
+            <input type="radio" name="custom-type" value="Нестандартный диван по фото" checked>
+            <span>По фото</span>
+          </label>
+          <label class="custom-radio-card">
+            <input type="radio" name="custom-type" value="Диван по проекту / чертежам">
+            <span>По проекту</span>
+          </label>
+          <label class="custom-radio-card">
+            <input type="radio" name="custom-type" value="Изменение модели из каталога">
+            <span>Изменение модели</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="custom-form-section glass glass-strong">
+        <div class="eyebrow">Основные данные</div>
+        <div class="cart-contact-grid">
+          <input id="custom-name" class="input" placeholder="Ваше имя">
+          <input id="custom-phone" class="input" placeholder="Телефон">
+          <input id="custom-city" class="input" placeholder="Город">
+          <input id="custom-model" class="input" placeholder="Модель / ссылка / название">
+          <input id="custom-width" class="input" placeholder="Ширина (см)">
+          <input id="custom-depth" class="input" placeholder="Глубина (см)">
+          <input id="custom-height" class="input" placeholder="Высота (см)">
+          <input id="custom-fabric" class="input" placeholder="Ткань / цвет / пожелания">
+        </div>
+        <textarea id="custom-comment" class="textarea" placeholder="Подробно опишите, что нужно сделать"></textarea>
+      </section>
+
+      <section class="custom-form-section glass glass-strong">
+        <div class="eyebrow">Файлы и фото</div>
+        <input id="custom-files" class="input" type="file" multiple accept="image/*,.pdf,.dwg,.png,.jpg,.jpeg,.webp">
+        <p class="custom-note">Файлы не будут автоматически улетать в мессенджер. Мы добавим их отдельным этапом. Сейчас текст заявки формируется сразу.</p>
+      </section>
+
+      <section class="custom-form-section glass glass-strong">
+        <div class="eyebrow">Отправка</div>
+        <div class="custom-send-grid">
+          <button class="primary-btn" onclick="sendCustomToWhatsApp()">WhatsApp</button>
+          <button class="ghost-btn" onclick="sendCustomToTelegram()">Telegram</button>
+          <button class="ghost-btn" onclick="sendCustomToMax()">Max</button>
+          <button class="ghost-btn" onclick="copyCustomRequest()">Скопировать текст</button>
+        </div>
+      </section>
+    </main>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./custom.html" class="nav-item active">
+          <span>✎</span>
+          <span>Нестандарт</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

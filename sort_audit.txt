@@ -1,0 +1,323 @@
+===== PRODUCT-LIST.HTML =====
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Товары</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page product-list-page">
+      <section class="catalog-hero glass glass-strong">
+        <div class="category-top-row">
+          <button class="icon-btn back-btn" onclick="history.back()">←</button>
+          <div>
+            <div class="eyebrow">Категория</div>
+            <h1 id="product-list-title" class="catalog-hero-title">Товары</h1>
+          </div>
+          <button class="icon-btn" onclick="openFilterSheet()">⚙</button>
+        </div>
+
+        <div class="catalog-search-row">
+          <input id="product-list-search" class="input catalog-root-search" placeholder="Поиск по товарам..." />
+        </div>
+
+        <div class="product-list-toolbar">
+          <div id="product-list-chips" class="category-quick-chips"></div>
+
+          <select id="product-list-sort" class="input product-list-sort">
+            <option value="default">По умолчанию</option>
+            <option value="price-asc">Сначала дешевле</option>
+            <option value="price-desc">Сначала дороже</option>
+            <option value="name-asc">По названию А-Я</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="product-list-grid" class="products"></section>
+    </main>
+
+    <div id="product-filter-sheet" class="sheet-backdrop" style="display:none;">
+      <div class="sheet-panel product-filter-panel">
+        <div class="sheet-head">
+          <h3>Фильтры</h3>
+          <button class="icon-btn" onclick="closeFilterSheet()">✕</button>
+        </div>
+
+        <div class="filter-form-grid">
+          <label class="filter-field">
+            <span>Цена от</span>
+            <input id="filter-price-min" class="input" type="number" placeholder="Например 30000">
+          </label>
+
+          <label class="filter-field">
+            <span>Цена до</span>
+            <input id="filter-price-max" class="input" type="number" placeholder="Например 100000">
+          </label>
+        </div>
+
+        <div class="filter-switches">
+          <label class="filter-check-row">
+            <input id="filter-only-folding" type="checkbox">
+            <span>Только раскладные</span>
+          </label>
+
+          <label class="filter-check-row">
+            <input id="filter-only-nonfolding" type="checkbox">
+            <span>Только нераскладные</span>
+          </label>
+        </div>
+
+        <div class="sheet-actions">
+          <button class="ghost-btn" onclick="resetProductFilters()">Сбросить</button>
+          <button class="primary-btn" onclick="applyProductFilters()">Применить</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item active">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
+
+===== APP.JS : sortProductListItems =====
+
+===== APP.JS : renderProductListPage block =====
+function renderProductListPage() {
+  const titleEl = document.getElementById('product-list-title');
+  const searchEl = document.getElementById('product-list-search');
+  const chipsEl = document.getElementById('product-list-chips');
+  const gridEl = document.getElementById('product-list-grid');
+  if (!titleEl || !searchEl || !chipsEl || !gridEl) return;
+
+  const category = getQueryParam('category') || 'divany-2';
+  const config = getProductListConfig(category);
+
+  titleEl.textContent = config.title;
+
+  let activeChip = null;
+
+  function paint() {
+    const q = searchEl.value.trim().toLowerCase();
+
+    let items = PRODUCTS.filter(item => item.category === category);
+
+    if (q) {
+      items = items.filter(item =>
+        (item.name || '').toLowerCase().includes(q) ||
+        (item.description || '').toLowerCase().includes(q)
+      );
+    }
+
+    if (activeChip) {
+      items = items.filter(item => chipMatchesProduct(activeChip, item));
+    }
+
+    items = items.filter(item => productPassesAdvancedFilters(item));
+
+    if (!items.length) {
+      gridEl.innerHTML = `
+        <section class="cart-empty glass glass-strong">
+          <h3>Товаров пока нет</h3>
+          <p>Для этой подкатегории товары ещё не добавлены или не подходят под фильтр.</p>
+        </section>
+      `;
+      return;
+    }
+
+    gridEl.innerHTML = items.map(item => {
+      const qty = getCatalogCartQty(item);
+
+      const actionHtml = qty > 0
+        ? `
+          <div class="catalog-qty-box">
+            <button class="catalog-qty-btn" onclick="decreaseCatalogQty(${item.id})">−</button>
+            <div class="catalog-qty-value">${qty}</div>
+            <button class="catalog-qty-btn" onclick="increaseCatalogQty(${item.id})">+</button>
+          </div>
+        `
+        : `
+          <button class="primary-btn" onclick="addSimpleToCart(${item.id})">🛒 В корзину</button>
+        `;
+
+      return `
+        <article class="product-catalog-card glass glass-strong">
+          <a href="./product.html?id=${item.id}" class="product-catalog-link">
+            <div class="product-catalog-image-wrap">
+              <img src="${item.photos?.[0] || ''}" alt="${item.name}" class="product-catalog-image">
+              <button class="catalog-fav-btn" onclick="event.preventDefault();event.stopPropagation();toggleFavoriteBySlug('${item.slug}')">
+                ${isFavorite(item.slug) ? '♥' : '♡'}
+              </button>
+            </div>
+          </a>
+          <div class="product-catalog-body">
+            <div class="product-catalog-badge">${item.badge || 'Модель'}</div>
+            <a href="./product.html?id=${item.id}" class="product-catalog-title">${item.name}</a>
+            <div class="product-catalog-specs">${item.short_specs || ''}</div>
+            <div class="product-catalog-price-row">
+              <div class="product-catalog-price">${formatPrice(item.price)}</div>
+              <div class="product-catalog-old-price">${formatPrice(item.old_price || Math.round(item.price * 1.3))}</div>
+            </div>
+            <div class="product-catalog-actions">
+              ${actionHtml}
+              <a href="./product.html?id=${item.id}" class="ghost-btn product-open-btn">Открыть</a>
+            </div>
+          </div>
+        </article>
+      `;
+    }).join('');
+  }
+
+  chipsEl.innerHTML = config.chips.map(chip => `
+    <button class="category-chip" data-chip="${chip}">${chip}</button>
+  `).join('');
+
+  chipsEl.querySelectorAll('.category-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const chip = btn.dataset.chip;
+      activeChip = activeChip === chip ? null : chip;
+
+      chipsEl.querySelectorAll('.category-chip').forEach(x => {
+        x.classList.remove('category-chip-active');
+      });
+
+      if (activeChip) {
+        btn.classList.add('category-chip-active');
+      }
+
+      paint();
+    });
+  });
+
+  searchEl.addEventListener('input', paint);
+
+  paint();
+}
+
+let PRODUCT_LIST_FILTERS = {
+  priceMin: '',
+  priceMax: '',
+  onlyFolding: false,
+  onlyNonFolding: false
+};
+
+function openFilterSheet() {
+  const el = document.getElementById('product-filter-sheet');
+  if (!el) return;
+
+  document.getElementById('filter-price-min').value = PRODUCT_LIST_FILTERS.priceMin || '';
+  document.getElementById('filter-price-max').value = PRODUCT_LIST_FILTERS.priceMax || '';
+  document.getElementById('filter-only-folding').checked = !!PRODUCT_LIST_FILTERS.onlyFolding;
+  document.getElementById('filter-only-nonfolding').checked = !!PRODUCT_LIST_FILTERS.onlyNonFolding;
+
+  el.style.display = 'block';
+}
+
+function closeFilterSheet() {
+  const el = document.getElementById('product-filter-sheet');
+  if (el) el.style.display = 'none';
+}
+
+function resetProductFilters() {
+  PRODUCT_LIST_FILTERS = {
+    priceMin: '',
+    priceMax: '',
+    onlyFolding: false,
+    onlyNonFolding: false
+  };
+  closeFilterSheet();
+  renderProductListPage();
+}
+
+function applyProductFilters() {
+  PRODUCT_LIST_FILTERS = {
+    priceMin: document.getElementById('filter-price-min')?.value || '',
+    priceMax: document.getElementById('filter-price-max')?.value || '',
+    onlyFolding: !!document.getElementById('filter-only-folding')?.checked,
+    onlyNonFolding: !!document.getElementById('filter-only-nonfolding')?.checked
+  };
+  closeFilterSheet();
+  renderProductListPage();
+}
+
+function productPassesAdvancedFilters(product) {
+  const filters = product.filters || {};
+  const text = `${product.name || ''} ${product.description || ''} ${product.short_specs || ''}`.toLowerCase();
+  const price = Number(product.price || 0);
+
+  const min = Number(PRODUCT_LIST_FILTERS.priceMin || 0);
+  const max = Number(PRODUCT_LIST_FILTERS.priceMax || 0);
+
+  if (min && price < min) return false;
+  if (max && price > max) return false;
+
+  if (PRODUCT_LIST_FILTERS.onlyFolding) {
+    if (filters.is_folding !== true) return false;
+  }
+
+  if (PRODUCT_LIST_FILTERS.onlyNonFolding) {
+    if (filters.is_folding !== false) return false;
+  }
+
+  return true;
+}
+
+window.openFilterSheet = openFilterSheet;
+window.closeFilterSheet = closeFilterSheet;
+window.resetProductFilters = resetProductFilters;
+window.applyProductFilters = applyProductFilters;
+
+===== STYLE.CSS : product-list-sort =====
+4587:.product-list-toolbar {
+4593:.product-list-sort {
+4600:  .product-list-sort {
+
+===== CATEGORY SAMPLE =====
+Диван двухместный Баланс | 61500
+Диван двухместный Близость | 47600
+Диван двухместный Волна | 19900
+Диван двухместный Гармония | 47900
+Диван двухместный Дуэт | 76850
+Диван двухместный Капсула | 69900
+Диван двухместный Комфорт | 46900
+Диван двухместный Контакт | 75300

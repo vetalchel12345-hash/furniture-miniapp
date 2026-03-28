@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Товары</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page product-list-page">
+      <section class="catalog-hero glass glass-strong">
+        <div class="category-top-row">
+          <button class="icon-btn back-btn" onclick="history.back()">←</button>
+          <div>
+            <div class="eyebrow">Категория</div>
+            <h1 id="product-list-title" class="catalog-hero-title">Товары</h1>
+          </div>
+          <button id="product-filter-open-btn" class="icon-btn product-filter-open-btn" onclick="openFilterSheet()">⚙ <span id="product-filter-badge" class="product-filter-badge" style="display:none;">0</span></button>
+        </div>
+
+        <div class="catalog-search-row">
+          <input id="product-list-search" class="input catalog-root-search" placeholder="Поиск по товарам..." />
+        </div>
+
+        <div class="product-list-toolbar">
+          <div id="product-list-chips" class="category-quick-chips"></div>
+
+          <select id="product-list-sort" class="input product-list-sort">
+            <option value="default">По умолчанию</option>
+            <option value="price-asc">Сначала дешевле</option>
+            <option value="price-desc">Сначала дороже</option>
+            <option value="name-asc">По названию А-Я</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="product-list-grid" class="products"></section>
+    </main>
+
+    <div id="product-filter-sheet" class="sheet-backdrop" style="display:none;">
+      <div class="sheet-panel product-filter-panel">
+        <div class="sheet-head">
+          <h3>Фильтры</h3>
+          <button class="icon-btn" onclick="closeFilterSheet()">✕</button>
+        </div>
+
+        <div class="filter-form-grid">
+          <label class="filter-field">
+            <span>Цена от</span>
+            <input id="filter-price-min" class="input" type="number" placeholder="Например 30000">
+          </label>
+
+          <label class="filter-field">
+            <span>Цена до</span>
+            <input id="filter-price-max" class="input" type="number" placeholder="Например 100000">
+          </label>
+        </div>
+
+        
+        <div class="filter-switches">
+          <label class="filter-check-row">
+            <input id="filter-only-folding" type="checkbox">
+            <span>Только раскладные</span>
+          </label>
+
+          <label class="filter-check-row">
+            <input id="filter-only-nonfolding" type="checkbox">
+            <span>Только нераскладные</span>
+          </label>
+
+          <label class="filter-check-row">
+            <input id="filter-price-70" type="checkbox">
+            <span>Только до 70 000 ₽</span>
+          </label>
+
+          <label class="filter-check-row">
+            <input id="filter-price-100plus" type="checkbox">
+            <span>Только от 100 000 ₽</span>
+          </label>
+        </div>
+
+        <div class="sheet-actions">
+
+          <button class="ghost-btn" onclick="resetProductFilters()">Сбросить</button>
+          <button class="primary-btn" onclick="applyProductFilters()">Применить</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="app-toast" class="app-toast"></div>
+
+    <nav class="app-bottom-nav glass glass-strong">
+      <div class="app-bottom-nav-side left">
+        <a href="./catalog.html" class="nav-item active">
+          <span>☰</span>
+          <span>Каталог</span>
+        </a>
+        <a href="./favorites.html" class="nav-item nav-favorites-link">
+          <span>♡</span>
+          <span>Избранное</span>
+        </a>
+      </div>
+
+      <a href="./index.html" class="nav-home">
+        <span>⌂</span>
+        <span>Главная</span>
+      </a>
+
+      <div class="app-bottom-nav-side right">
+        <a href="./cart.html" class="nav-item nav-cart-link">
+          <span>🛒</span>
+          <span>Корзина</span>
+        </a>
+        <a href="./profile.html" class="nav-item">
+          <span>◌</span>
+          <span>Профиль</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

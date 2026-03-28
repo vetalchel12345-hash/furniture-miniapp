@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вентория</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="theme-light">
+  <div class="app-shell">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="page home-page-premium">
+      <section class="home-topbar glass glass-strong">
+        <div class="home-brand-wrap">
+          <div class="home-brand">ВЕНТОРИЯ</div>
+          <div class="home-brand-sub">мягкая мебель и интерьерные решения</div>
+        </div>
+
+        <div class="home-top-actions">
+          <button class="icon-btn" onclick="window.location.href='./catalog.html'">⌕</button>
+          <a href="./favorites.html" class="icon-btn nav-favorites-link">♡</a>
+          <a href="./cart.html" class="icon-btn nav-cart-link">🛒</a>
+          <a href="./profile.html" class="icon-btn">◌</a>
+        </div>
+      </section>
+
+      <section class="home-slider glass glass-strong">
+        <div id="home-hero-slides" class="home-hero-slides">
+          <div class="home-hero-slide active">
+            <img src="./assets/categories/divany.jpg" alt="Баннер 1">
+            <div class="home-hero-overlay"></div>
+            <div class="home-hero-caption">
+              <div class="eyebrow text-light">Коллекция диванов</div>
+              <h2>Премиальные диваны для современного интерьера</h2>
+              <p>Собственное производство, выбор ткани, размеры под ваш проект.</p>
+              <div class="home-hero-actions">
+                <a href="./category.html?group=divany" class="primary-btn">Смотреть диваны</a>
+                <button class="ghost-btn ghost-btn-light" onclick="showToast('Подборку баннеров заменим на ваши реальные акции')">Акции</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-hero-slide">
+            <img src="./assets/categories/beds.jpg" alt="Баннер 2">
+            <div class="home-hero-overlay"></div>
+            <div class="home-hero-caption">
+              <div class="eyebrow text-light">Комфорт каждый день</div>
+              <h2>Кровати и спальни в едином стиле</h2>
+              <p>Мягкие формы, выразительная обивка и спокойная премиальная подача.</p>
+              <div class="home-hero-actions">
+                <a href="./category.html?group=krovati" class="primary-btn">Смотреть кровати</a>
+                <button class="ghost-btn ghost-btn-light" onclick="showToast('Здесь будет реальный баннер акции или новинки')">Подробнее</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-hero-slide">
+            <img src="./assets/categories/armchairs.jpg" alt="Баннер 3">
+            <div class="home-hero-overlay"></div>
+            <div class="home-hero-caption">
+              <div class="eyebrow text-light">Собственное производство</div>
+              <h2>Мебель под ваш вкус и формат пространства</h2>
+              <p>Работаем с клиентами, дизайнерами и индивидуальными интерьерными задачами.</p>
+              <div class="home-hero-actions">
+                <button class="primary-btn" onclick="window.location.href='./favorites.html'">Избранное</button>
+                <button class="ghost-btn ghost-btn-light" onclick="showToast('Потом сюда привяжем блок нестандартного проекта')">Нестандарт</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-hero-bottom">
+          <div id="home-hero-dots" class="home-hero-dots"></div>
+          <div class="home-hero-arrows">
+            <button class="icon-btn" onclick="prevHomeSlide()">‹</button>
+            <button class="icon-btn" onclick="nextHomeSlide()">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Подборки</div>
+            <h2 class="home-section-title">Популярное сейчас</h2>
+          </div>
+        </div>
+
+        <div class="home-tabs">
+          <button class="home-tab active" data-home-tab="hits">Хиты продаж</button>
+          <button class="home-tab" data-home-tab="new">Новинки</button>
+          <button class="home-tab" data-home-tab="special">Спецпредложения</button>
+        </div>
+
+        <div id="home-picked-products" class="home-products-row"></div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Почему выбирают нас</div>
+            <h2 class="home-section-title">Преимущества покупки в Вентории</h2>
+          </div>
+        </div>
+
+        <div class="home-benefits-grid">
+          <article class="home-benefit-card">
+            <div class="home-benefit-icon">✂</div>
+            <h3>Выбор размера и обивки</h3>
+            <p>Подбираем размеры, материалы и ткань под ваш интерьер и задачи.</p>
+          </article>
+
+          <article class="home-benefit-card">
+            <div class="home-benefit-icon">🚚</div>
+            <h3>Доставка по России и СНГ</h3>
+            <p>Организуем доставку мебели в регионы, города России и страны СНГ.</p>
+          </article>
+
+          <article class="home-benefit-card">
+            <div class="home-benefit-icon">🏭</div>
+            <h3>Собственное производство</h3>
+            <p>Контролируем качество на всех этапах, от каркаса до готового изделия.</p>
+          </article>
+
+          <article class="home-benefit-card">
+            <div class="home-benefit-icon">🛡</div>
+            <h3>Гарантия 24 месяца</h3>
+            <p>Даём гарантию на мебель и работаем на долгий результат, а не на один заказ.</p>
+          </article>
+
+          <article class="home-benefit-card">
+            <div class="home-benefit-icon">✎</div>
+            <h3>Работа с дизайнерами</h3>
+            <p>Открыты к совместным проектам, авторским интерьерам и объектным решениям.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Каталог</div>
+            <h2 class="home-section-title">Основные разделы</h2>
+          </div>
+          <a href="./catalog.html" class="ghost-btn">Открыть каталог</a>
+        </div>
+
+        <div class="home-catalog-grid">
+          <article class="home-catalog-tile" onclick="window.location.href='./category.html?group=divany'">
+            <img src="./assets/categories/divany.jpg" alt="Диваны">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Диваны</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="window.location.href='./category.html?group=krovati'">
+            <img src="./assets/categories/beds.jpg" alt="Кровати">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Кровати</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="showToast('Матрасы подключим следующим этапом')">
+            <img src="./assets/categories/mattresses.jpg" alt="Матрасы">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Матрасы</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="window.location.href='./category.html?group=kresla'">
+            <img src="./assets/categories/armchairs.jpg" alt="Кресла">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Кресла</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="showToast('Столы подключим следующим этапом')">
+            <img src="./assets/categories/tables.jpg" alt="Столы">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Столы</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="showToast('Стулья подключим следующим этапом')">
+            <img src="./assets/categories/chairs.jpg" alt="Стулья">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Стулья</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="window.location.href='./category.html?group=pufy'">
+            <img src="./assets/categories/poufs.jpg" alt="Пуфы">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Пуфы</div>
+          </article>
+
+          <article class="home-catalog-tile" onclick="showToast('Подушки подключим следующим этапом')">
+            <img src="./assets/categories/pillows.jpg" alt="Подушки">
+            <div class="home-catalog-overlay"></div>
+            <div class="home-catalog-title">Подушки</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Производство</div>
+            <h2 class="home-section-title">Собственное производство мебели</h2>
+          </div>
+        </div>
+
+        <div class="home-production-grid">
+          <div class="home-production-photo">
+            <img src="./assets/categories/divany.jpg" alt="Производство">
+          </div>
+          <div class="home-production-text">
+            <p>
+              Мы создаём мягкую мебель с контролем качества на каждом этапе: от выбора материалов и сборки каркаса до обивки, наполнения и финальной проверки.
+              Такой подход позволяет держать стабильное качество, предлагать гибкие размеры и работать как с частными клиентами, так и с дизайнерами и объектами.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Материалы обивки</div>
+            <h2 class="home-section-title">Популярные ткани</h2>
+          </div>
+          <button class="ghost-btn" onclick="showToast('Полный каталог тканей подключим следующим этапом')">Посмотреть все</button>
+        </div>
+
+        <div id="home-fabrics-grid" class="home-fabrics-grid"></div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Отзывы</div>
+            <h2 class="home-section-title">Что говорят клиенты</h2>
+          </div>
+        </div>
+
+        <div id="home-reviews-row" class="home-reviews-row"></div>
+      </section>
+
+      <section class="home-section glass glass-strong">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Помощь с выбором</div>
+            <h2 class="home-section-title">Не можете определиться? Мы поможем</h2>
+          </div>
+        </div>
+
+        <div class="home-help-form">
+          <div class="cart-contact-grid">
+            <input id="home-help-name" class="input" placeholder="Ваше имя">
+            <input id="home-help-phone" class="input" placeholder="Номер телефона">
+          </div>
+
+          <div class="home-help-checks">
+            <label class="filter-check-row">
+              <input id="home-help-call" type="checkbox" checked>
+              <span>Позвонить</span>
+            </label>
+
+            <label class="filter-check-row">
+              <input id="home-help-write" type="checkbox">
+              <span>Написать</span>
+            </label>
+          </div>
+
+          <div class="home-help-actions">
+            <button class="primary-btn" onclick="sendHelpRequestWhatsApp()">Отправить в WhatsApp</button>
+            <button class="ghost-btn" onclick="sendHelpRequestTelegram()">Отправить в Telegram</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-section glass glass-strong home-contacts">
+        <div class="home-section-head">
+          <div>
+            <div class="eyebrow">Контакты</div>
+            <h2 class="home-section-title">Связаться с нами</h2>
+          </div>
+        </div>
+
+        <div class="home-contacts-grid">
+          <div class="home-contact-item">
+            <div class="home-contact-label">Телефон / WhatsApp</div>
+            <div class="home-contact-value">+7 985 106 00 99</div>
+          </div>
+
+          <div class="home-contact-item">
+            <div class="home-contact-label">Telegram</div>
+            <div class="home-contact-value">@vitalik_gunchak</div>
+          </div>
+
+          <div class="home-contact-item">
+            <div class="home-contact-label">Режим работы</div>
+            <div class="home-contact-value">Ежедневно, по согласованию</div>
+          </div>
+
+          <div class="home-contact-item">
+            <div class="home-contact-label">Каталог</div>
+            <div class="home-contact-value">Диваны, кровати, кресла, пуфы и мебель на заказ</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="app-toast" class="app-toast"></div>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./js/telegram.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
